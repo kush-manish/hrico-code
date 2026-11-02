@@ -286,7 +286,6 @@
         </div>
         <h2 id="qfAuthTitle" class="qf-sr">${mode === 'signin' ? 'Sign in' : 'Create account'}</h2>
         ${note ? `<p class="qf-auth-note">${esc(note)}</p>` : ''}
-        ${me.firstUser && mode === 'signup' ? '<p class="qf-auth-note">This is the first account on this server, so it becomes the admin (it alone can change the LeetCode judge cookie).</p>' : ''}
         <button type="button" class="qf-btn qf-btn-google" id="qfGoogle" ${ext ? '' : 'aria-describedby="qfGoogleHint"'}>
           ${icon.google}<span>${ext ? `Continue as ${esc(ext)}` : 'Continue with Google'}</span>
         </button>

@@ -57,11 +57,10 @@ const publicUser = u => u && ({
   plan: u.plan || 'free',
 });
 
-/** The operator account always lands on admin/pro; the box owner (first
- * signup) stays admin too but is not auto-upgraded to pro by this check. */
-function roleAndPlanFor(email, isFirstUser) {
+/** Only the operator account (ADMIN_EMAIL) is ever admin/pro. Being the first
+ * signup grants nothing: on a public server a stranger could sign up first. */
+function roleAndPlanFor(email) {
   if (isAdminEmail(email)) return { role: 'admin', plan: 'pro' };
-  if (isFirstUser) return { role: 'admin', plan: 'free' };
   return { role: 'member', plan: 'free' };
 }
 
@@ -91,10 +90,8 @@ export function signup({ name, email, password, target }) {
   if (users.some(u => u.email === email)) throw new AuthError('An account with that email already exists. Sign in instead.', 409, 'exists');
   const user = {
     id: crypto.randomUUID(), email, name: name || email.split('@')[0],
-    // The first account on a fresh install runs the box: it alone may change
-    // the LeetCode judge credentials and model settings. The admin email is
-    // promoted the same way no matter when it signs up.
-    ...roleAndPlanFor(email, users.length === 0),
+    // Only the admin email may change the LeetCode judge credentials and model settings.
+    ...roleAndPlanFor(email),
     pw: hashPassword(password), target: cleanTarget(target), createdAt: new Date().toISOString(),
   };
   users.push(user);
@@ -119,7 +116,7 @@ export function loginExternal(email, provider = 'google') {
   let user = users.find(u => u.email === email);
   if (!user) {
     user = { id: crypto.randomUUID(), email, name: email.split('@')[0],
-      ...roleAndPlanFor(email, users.length === 0),
+      ...roleAndPlanFor(email),
       provider, target: null, createdAt: new Date().toISOString() };
     users.push(user);
     writeJson(USERS(), users);
