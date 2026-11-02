@@ -1,0 +1,1 @@
+{"steps":[{"line":3,"event":"line","func":"frequencySort","locals":{"s":"'banana'"},"watch":{},"out":0,"depth":1,"outer":{},"stack":["frequencySort('banana')"]},{"line":3,"event":"return","func":"frequencySort","locals":{"s":"'banana'"},"watch":{},"out":0,"depth":1,"retval":"'aaannb'"}],"stdout":"","result":"'aaannb'","error":null,"truncated":false}

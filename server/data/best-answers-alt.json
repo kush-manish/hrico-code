@@ -1,0 +1,171 @@
+{
+ "alternatives": {
+  "Tell me about yourself.": [
+   {
+    "story": "S1, S2, S5",
+    "answer": "I'm a software engineer with about four years building distributed systems and data pipelines across finance and supply chain, and the thread running through my work is making large-scale systems reliable and fast for the people who depend on them. I started by co-founding a startup, Al-Shala, where I built an MVP on AWS for over a thousand concurrent users, so I learned early what it means to own something end to end. At Blue Yonder in Bengaluru, the work I'm proudest of was rebuilding a pipeline that took about ten days to build datasets, with volume growing past 80 million records a month. The hard part wasn't the code — it was earning trust. A senior colleague was worried a rewrite would silently corrupt the numbers, and honestly that pushed me to be more rigorous than I'd planned. I [ran both pipelines in parallel and diffed the output] until we both agreed it matched, then redesigned it around Kafka and Snowflake and brought it from ten days to under eight hours. That taught me that correctness has to be provable, not just claimed — a lesson I carried straight into JPMorgan, where I now architect and own a validation agent in our Software Factory platform. It checks generated code against a Jira ticket's acceptance criteria and feeds structured feedback into self-correction loops. I built it precisely because I'd learned not to trust output I couldn't verify. It's cut manual developer intervention by 90% and sped up Close of Business reports by 70%, with zero audit failures in APAC reporting. That's why Google appeals to me — doing exactly this, at the scale where billions rely on it.",
+    "star": {
+     "situation": "At Blue Yonder, building datasets took about ten days as volume grew past 80M records a month; a senior colleague feared a rewrite would corrupt the numbers.",
+     "task": "I owned the redesign and had to prove the new output was correct before anyone would trust it, then carry that discipline into my JPMorgan agent work.",
+     "action": "I ran both pipelines in parallel and diffed the output with the colleague until we agreed it matched, redesigned around Kafka and Snowflake, and later built a validation agent that checks generated code against acceptance criteria.",
+     "result": "Ten days to under eight hours, over 95%; and at JPMorgan 90% less manual intervention, 70% faster COB reports, zero audit failures.",
+     "reflection": "Correctness has to be provable, not claimed — I turned a colleague's doubt into a verification step I now build into everything."
+    },
+    "evidence": [
+     "Blue Yonder: 80M+ records/month, 10 days to under 8 hours (95%+)",
+     "JPMorgan: validation agent checking generated code against Jira acceptance criteria",
+     "JPMorgan: 90% less manual intervention, 70% faster COB reports, zero audit failures (APAC)",
+     "Al-Shala: AWS MVP for 1,000+ concurrent users"
+    ],
+    "gaps": [
+     "Did you actually run both pipelines in parallel and diff the output, or verify correctness another way?",
+     "Was it genuinely a senior colleague who raised the correctness worry, and what exactly was their concern?"
+    ],
+    "why": "It opens the round with a single thread — provable reliability — and fixes the collaboration and self-awareness gaps by showing a colleague changing the approach and a lesson carried into later work.",
+    "followUps": [
+     {
+      "q": "You said a colleague's doubt changed how you worked — did you ever get it wrong before that?",
+      "a": "Yes. Earlier I'd shipped a change at Blue Yonder confident the output was right, and [a small subset of records didn't reconcile] after rollout. It wasn't catastrophic, but it was my miss, and I owned it to the team that day. That's exactly why the parallel-diff habit stuck — I'd rather over-verify than ask people to trust my word. It's the same instinct behind the validation agent now."
+     },
+     {
+      "q": "You've only been at JPMorgan about a year — why leave so soon?",
+      "a": "I'm leaving towards something, not away. I've learned a lot about building AI agents safely in a regulated setting, and I'm grateful for it. What I want next is to do this reliability and data work at Google's scale, where systems serve billions, with a stronger engineering culture around me. The thread's the same — I just want a bigger canvas for it."
+     },
+     {
+      "q": "When your validation agent and a developer disagree about whether code is correct, who wins?",
+      "a": "Neither automatically — the point is to surface the evidence. The agent compares code to the ticket's acceptance criteria and returns structured feedback, so the disagreement becomes concrete rather than a matter of opinion. If the criteria themselves are ambiguous, that's a signal the ticket's underspecified, and I'd go back to the author. For regulatory logic I keep a human in the loop on top. That's how we held zero audit failures."
+     }
+    ],
+    "model": "claude-opus-4-8",
+    "rounds": 2,
+    "at": 1791624412070,
+    "score": {
+     "percent": 96,
+     "overall": "strong_hire",
+     "dims": [
+      {
+       "id": "ownership",
+       "label": "Ownership & drive",
+       "score": 4,
+       "comment": "Consistently takes initiative beyond baseline expectations to solve systemic data integrity problems."
+      },
+      {
+       "id": "impact",
+       "label": "Impact & scope",
+       "score": 4,
+       "comment": "Demonstrates high-leverage outcomes across multiple organizations with clear baseline comparisons."
+      },
+      {
+       "id": "judgement",
+       "label": "Judgement & trade-offs",
+       "score": 3,
+       "comment": "Solid rationale under constraints, though could further articulate technical trade-offs between Snowflake/Kafka versus other architectural alternatives."
+      },
+      {
+       "id": "collaboration",
+       "label": "Collaboration & influence",
+       "score": 4,
+       "comment": "Constructively influenced a skeptical stakeholder with verifiable data while strengthening the working relationship."
+      },
+      {
+       "id": "reflection",
+       "label": "Self-awareness & growth",
+       "score": 4,
+       "comment": "High self-awareness, translating past technical missteps into core architectural principles applied in subsequent roles."
+      },
+      {
+       "id": "communication",
+       "label": "Communication",
+       "score": 4,
+       "comment": "Direct, structured, and articulates technical impact without fluff."
+      }
+     ]
+    }
+   }
+  ],
+  "How do you handle negative feedback? Give me an example.": [
+   {
+    "story": "S8",
+    "answer": "I treat negative feedback as someone showing me a blind spot, so I try to understand it before I react. At Al-Shala, which I co-founded, my co-founder pushed back hard on how I was building our live trainer sessions. I'd gone deep on WebRTC streaming quality, and he told me flatly I was over-engineering it while trainers were waiting on the scheduling and subscription flow they needed to get paid. My first instinct was that streaming was the hard part and the rest could wait. But instead of defending it, I asked him to walk me through what trainers were actually saying — and the complaint was that they couldn't reliably book a session at all, so streaming quality didn't even matter yet. He was right. So I owned the re-sequencing end to end: I paused the streaming polish, shipped the meeting-scheduling algorithm and the subscription model first, then came back to streaming. Before that, bookings were failing often enough that trainers couldn't depend on the platform; afterwards we launched the subscription revenue model, supported 1,000+ concurrent users, and lifted internal operational efficiency by about 20% off [that broken-booking baseline]. That reach mattered beyond us two — it's what let trainers actually earn on the platform. The relationship got stronger because I'd taken his view seriously rather than as an attack. What I learned is that feedback about priorities stings more than feedback about code, because it means I was busy on the wrong thing. So now I check my sequencing against real user pain early — I carried that straight into how I prioritise work at JPMorgan.",
+    "star": {
+     "situation": "At Al-Shala, which I co-founded, I'd gone deep on WebRTC streaming quality for our live trainer sessions.",
+     "task": "My co-founder pushed back hard: I was over-engineering streaming while trainers were waiting on the scheduling and subscription flow they needed to get paid.",
+     "action": "Instead of defending it, I asked him to walk me through what trainers were actually saying, saw they couldn't reliably book at all, agreed he was right, and owned the re-sequencing — pausing streaming, shipping scheduling and the subscription model first, then returning to streaming.",
+     "result": "We launched the subscription revenue model, supported 1,000+ concurrent users, and lifted internal operational efficiency about 20% off a baseline where bookings frequently failed — which is what let trainers actually earn.",
+     "reflection": "Feedback about priorities stings more than feedback about code because it means I was busy on the wrong thing, so I now check sequencing against real user pain early, as I do at JPMorgan."
+    },
+    "evidence": [
+     "Co-founded Al-Shala; architected ping server and WebRTC streaming service",
+     "Boosted internal operational efficiency by 20% and launched a subscription-based revenue model for live trainer sessions",
+     "Supported 1,000+ concurrent users with minimal latency",
+     "Developed complex meeting-scheduling algorithms"
+    ],
+    "gaps": [
+     "What was the actual pre-change booking failure rate or baseline the 20% efficiency gain was measured against?",
+     "Can you confirm bookings were failing frequently enough that trainers couldn't depend on the platform before the re-sequencing?"
+    ],
+    "why": "The question is explicitly about receiving negative feedback, and S8 is the one setting where a peer's challenge changed the candidate's mind and they can honestly say the other person was right.",
+    "followUps": [
+     {
+      "q": "Was there a moment you thought he was wrong — how did you handle still disagreeing?",
+      "a": "Early on, yes — I thought streaming was our differentiator, so rather than conceding on instinct I asked him to walk me through the actual trainer complaints. Once I saw they couldn't even book, the evidence settled it and I dropped my position. I'd rather be shown I'm wrong quickly than argue from my own assumptions, so I asked for evidence instead of pushing back."
+     },
+     {
+      "q": "How do you make sure you're not just agreeing to avoid conflict?",
+      "a": "I separate the two: I agree when the evidence moves me, not to keep the peace. Here I asked to see the real trainer complaints precisely so the decision rested on something external to both of us. If the data had shown streaming was the blocker, I'd have held my ground and said so. Agreeing without that check is just conflict-avoidance dressed up as collaboration."
+     },
+     {
+      "q": "What do you do now to get this kind of feedback earlier?",
+      "a": "I ask for it deliberately rather than waiting. At JPMorgan, before I go deep on an agent feature, I check the sequencing with the ticket authors and the engineers who'll rely on it, framed as 'what's actually blocking you right now'. That surfaces priority mismatches before I've sunk effort in — exactly the mistake I made at Al-Shala when I polished streaming while booking was broken."
+     }
+    ],
+    "model": "claude-opus-4-8",
+    "rounds": 2,
+    "at": 1791625107686,
+    "score": {
+     "percent": 88,
+     "overall": "hire",
+     "dims": [
+      {
+       "id": "ownership",
+       "label": "Ownership & drive",
+       "score": 3,
+       "comment": "Clearly owned the pivot and followed through past the initial pushback, though within the natural scope of a technical co-founder."
+      },
+      {
+       "id": "impact",
+       "label": "Impact & scope",
+       "score": 4,
+       "comment": "Quantified cross-functional impact with a stated baseline that directly affected external users and business viability."
+      },
+      {
+       "id": "judgement",
+       "label": "Judgement & trade-offs",
+       "score": 3,
+       "comment": "Articulated the competing alternatives and constraints well, though could more clearly detail what temporary technical debt or trade-offs were accepted on streaming."
+      },
+      {
+       "id": "collaboration",
+       "label": "Collaboration & influence",
+       "score": 3,
+       "comment": "De-escalated a contentious priority clash using customer evidence and strengthened the working relationship."
+      },
+      {
+       "id": "reflection",
+       "label": "Self-awareness & growth",
+       "score": 4,
+       "comment": "Demonstrated genuine self-awareness and provided a concrete, current example of applying the lesson learned."
+      },
+      {
+       "id": "communication",
+       "label": "Communication",
+       "score": 4,
+       "comment": "Delivered crisp, well-calibrated responses that made evidence extraction effortless."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "updatedAt": "2026-10-10T09:38:27.686Z"
+}

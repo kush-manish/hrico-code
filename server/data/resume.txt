@@ -1,0 +1,68 @@
+Manish Kushwaha
++44 7887166365 — manish.kushwaha.uk@gmail.com
+https://linkedin.com/in/kushmanish — https://leetcode.com/u/manish18156
+Summary
+Software Engineer with 4 years of experience designing and scaling distributed systems, data engineering pipelines, and
+microservices across global financial and supply-chain platforms. Built high-throughput pipelines processing 80M+ records
+monthly, automated regulatory reporting workflows with Large Language Models (LLMs), and delivered cloud-native
+solutions on Amazon Web Services (AWS). Passionate about engineering reliable, scalable systems and driving measurable
+impact through clean, well-tested code.
+Experience
+JPMorgan Chase & Co. United Kingdom
+Software Engineer III (Senior Software Engineer) Oct 2025 - Present
+• Architect and own a validation agent within an internal Software Factory platform, autonomously validating whether
+generated code satisfies Acceptance Criteria (AC) defined in Jira tickets and providing structured feedback to drive
+iterative self-correction loops
+• Design and implement multi-service integration validation, ensuring generated microservices interoperate correctly
+end-to-end and automatically triggering restarts when validation failures are detected
+• Build a frontend agent that surfaces actionable root-cause analysis and step-by-step remediation guidance, enabling
+engineers to resolve report number mismatches quickly and independently
+• Architect automated workflows integrating LLMs and AI agents, reducing manual developer intervention by 90% and
+accelerating Close of Business (COB) report generation by 70%
+• Design scalable microservices and high-throughput data pipelines using Scala, Apache Spark, and AWS, processing
+millions of financial records daily to generate complex regulatory reports
+• Develop robust regulatory reporting solutions for APAC jurisdictions, ensuring 100% compliance with complex
+financial regulations and zero audit failures
+• Contribute to modernization initiatives by migrating legacy reporting components to a microservice-based,
+cloud-native architecture on AWS
+• Leverage Snowflake for efficient data storage, query optimization, and large-scale report generation
+Blue Yonder Bengaluru, India
+Software Engineer Jul 2022 - Sep 2025
+• Architected and optimized high-throughput streaming and Extract, Transform, Load (ETL) data pipelines using
+Kafka, Python, and Snowflake, scaling the system to process 80M+ records monthly while reducing data construction
+time by over 95% (from 10 days to under 8 hours)
+• Engineered automated operational workflows leveraging complex Snowflake stored procedures, eliminating manual
+bottlenecks and saving 600+ hours of engineering time annually
+• Designed and developed highly scalable RESTful microservices, decreasing API latency by 15% and driving a 10%
+improvement in cross-system interoperability and overall platform throughput
+• Overhauled the Business Intelligence (BI) reporting infrastructure in Sigma across two flagship products, reducing
+complex data query and display latency from 3 minutes to under 40 seconds for large-scale datasets
+• Maintained platform reliability at 98% system uptime and accelerated incident resolution to a strict 2-3 day Service
+Level Agreement (SLA) by streamlining the developer deployment pipeline with robust CI/CD practices
+Al-Shala Technologies Pvt. Ltd. Delhi, India
+Co-Founder & Software Engineer 2020 - 2022
+• Engineered a scalable Minimum Viable Product (MVP) from the ground up using AWS cloud infrastructure,
+supporting 1,000+ concurrent users with minimal latency
+• Architected a robust ping server and WebRTC streaming service, boosting internal operational efficiency by 20% and
+launching a subscription-based revenue model for live trainer sessions
+• Spearheaded end-to-end development of core user engagement features including auto-syncing posture media and
+complex meeting scheduling algorithms, improving platform retention and reliability
+Technical Skills
+Languages: Python, Java, Scala, C++, SQL, JavaScript, Dart
+Frameworks: FastAPI, Spring Boot, Apache Spark, Express.js, Hibernate, Node.js, PyTorch
+Developer Tools: AWS, Docker, Kubernetes, Kafka, CI/CD, Azure, WebSocket, WebRTC
+Database Management: Snowflake, MySQL, PostgreSQL, MongoDB, Firebase
+
+
+
+Projects
+• Scalable Microservices Trading Platform: Engineered a microservices architecture to optimize order processing
+using Python and FastAPI, with real-time market data delivery via WebSocket and message brokers.
+• NLP with Disaster Tweets: Designed and implemented a Convolutional Neural Network (CNN) model in
+PyTorch, achieving a 20% improvement in tweet classification accuracy to reach 95%.
+• CoughGuard (COVID-19 Detection): Developed backend infrastructure for an Artificial Neural Network (ANN)
+model, achieving 94% testing accuracy in predicting health status from audio-based analysis.
+Education
+Indraprastha Institute of Information Technology (IIIT-Delhi) New Delhi, India
+B.Tech in Computer Science 2018 - 2022
+• Focused on Data Structures, Algorithms, and Distributed Computing

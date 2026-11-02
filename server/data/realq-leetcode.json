@@ -1,0 +1,516 @@
+{
+ "q1": [
+  {
+   "id": "2812",
+   "slug": "find-the-safest-path-in-a-grid",
+   "title": "Find the Safest Path in a Grid",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "same idea",
+   "why": "exact idea: maximise the min distance to threats (multi-source BFS + binary search / max-heap)"
+  },
+  {
+   "id": "1631",
+   "slug": "path-with-minimum-effort",
+   "title": "Path With Minimum Effort",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "same technique",
+   "why": "same 'best bottleneck path' technique"
+  },
+  {
+   "id": "1971",
+   "slug": "find-if-path-exists-in-graph",
+   "title": "Find if Path Exists in Graph",
+   "difficulty": "Easy",
+   "premium": false,
+   "match": "warm-up (Q1.1)",
+   "why": "Q1.1 warm-up: does a path exist"
+  }
+ ],
+ "q2": [
+  {
+   "id": "359",
+   "slug": "logger-rate-limiter",
+   "title": "Logger Rate Limiter",
+   "difficulty": "Easy",
+   "premium": true,
+   "match": "exact (Q2.1)",
+   "why": "Q2.1 drop repeats within 10 s"
+  },
+  {
+   "id": "933",
+   "slug": "number-of-recent-calls",
+   "title": "Number of Recent Calls",
+   "difficulty": "Easy",
+   "premium": false,
+   "match": "close (Q2.3)",
+   "why": "Q2.3 count events in a window"
+  },
+  {
+   "id": "362",
+   "slug": "design-hit-counter",
+   "title": "Design Hit Counter",
+   "difficulty": "Medium",
+   "premium": true,
+   "match": "close",
+   "why": "rate per time window (hit counter)"
+  }
+ ],
+ "q3": [
+  {
+   "id": "2251",
+   "slug": "number-of-flowers-in-full-bloom",
+   "title": "Number of Flowers in Full Bloom",
+   "difficulty": "Hard",
+   "premium": false,
+   "match": "same technique",
+   "why": "sweep line: who is 'in' at each time"
+  },
+  {
+   "id": "1854",
+   "slug": "maximum-population-year",
+   "title": "Maximum Population Year",
+   "difficulty": "Easy",
+   "premium": false,
+   "match": "same technique",
+   "why": "sweep line over intervals"
+  }
+ ],
+ "q4": [
+  {
+   "id": "310",
+   "slug": "minimum-height-trees",
+   "title": "Minimum Height Trees",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "related",
+   "why": "choosing a root in an undirected tree"
+  },
+  {
+   "id": "785",
+   "slug": "is-graph-bipartite",
+   "title": "Is Graph Bipartite?",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "follow-up (Q4.2)",
+   "why": "Q4.2 alternating colours = bipartite check"
+  }
+ ],
+ "q5": [
+  {
+   "id": "444",
+   "slug": "sequence-reconstruction",
+   "title": "Sequence Reconstruction",
+   "difficulty": "Medium",
+   "premium": true,
+   "match": "exact",
+   "why": "sequences consistent with one order (premium)"
+  },
+  {
+   "id": "207",
+   "slug": "course-schedule",
+   "title": "Course Schedule",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "related",
+   "why": "valid order exists (cycle check)"
+  },
+  {
+   "id": "210",
+   "slug": "course-schedule-ii",
+   "title": "Course Schedule II",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "follow-up (Q5.2)",
+   "why": "Q5.2 return a valid order"
+  }
+ ],
+ "q6": [
+  {
+   "id": "1834",
+   "slug": "single-threaded-cpu",
+   "title": "Single-Threaded CPU",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "close",
+   "why": "earliest finish with a heap of tasks"
+  },
+  {
+   "id": "2402",
+   "slug": "meeting-rooms-iii",
+   "title": "Meeting Rooms III",
+   "difficulty": "Hard",
+   "premium": false,
+   "match": "close",
+   "why": "rooms/CPUs assigned by heap"
+  },
+  {
+   "id": "253",
+   "slug": "meeting-rooms-ii",
+   "title": "Meeting Rooms II",
+   "difficulty": "Medium",
+   "premium": true,
+   "match": "exact (Q6.2)",
+   "why": "Q6.2 fewest CPUs = Meeting Rooms II (premium)"
+  }
+ ],
+ "q7": [
+  {
+   "id": "1218",
+   "slug": "longest-arithmetic-subsequence-of-given-difference",
+   "title": "Longest Arithmetic Subsequence of Given Difference",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "exact (Q7.1)",
+   "why": "Q7.1 exact difference (hash-map DP)"
+  },
+  {
+   "id": "2407",
+   "slug": "longest-increasing-subsequence-ii",
+   "title": "Longest Increasing Subsequence II",
+   "difficulty": "Hard",
+   "premium": false,
+   "match": "exact (Q7.2)",
+   "why": "Q7.2 difference up to d (segment tree DP)"
+  }
+ ],
+ "q8": [
+  {
+   "id": "62",
+   "slug": "unique-paths",
+   "title": "Unique Paths",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "same DP",
+   "why": "grid path counting DP"
+  },
+  {
+   "id": "63",
+   "slug": "unique-paths-ii",
+   "title": "Unique Paths II",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "same DP",
+   "why": "with blocked cells / constraints"
+  }
+ ],
+ "q9": [
+  {
+   "id": "547",
+   "slug": "number-of-provinces",
+   "title": "Number of Provinces",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "part (similar = connected)",
+   "why": "similar = connected component (BFS/DSU)"
+  },
+  {
+   "id": "215",
+   "slug": "kth-largest-element-in-an-array",
+   "title": "Kth Largest Element in an Array",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "part (top K)",
+   "why": "Q9.2 top K with a size-K heap"
+  }
+ ],
+ "q10": [
+  {
+   "id": "767",
+   "slug": "reorganize-string",
+   "title": "Reorganize String",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "exact",
+   "why": "no two equal adjacent (Reorganize String)"
+  },
+  {
+   "id": "1054",
+   "slug": "distant-barcodes",
+   "title": "Distant Barcodes",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "exact",
+   "why": "same, on numbers (Distant Barcodes)"
+  }
+ ],
+ "q11": [
+  {
+   "id": "1300",
+   "slug": "sum-of-mutated-array-closest-to-target",
+   "title": "Sum of Mutated Array Closest to Target",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "exact",
+   "why": "exact: largest cap so the sum fits (Sum of Mutated Array)"
+  }
+ ],
+ "q12": [
+  {
+   "id": "214",
+   "slug": "shortest-palindrome",
+   "title": "Shortest Palindrome",
+   "difficulty": "Hard",
+   "premium": false,
+   "match": "same technique",
+   "why": "longest prefix that is a suffix (KMP prefix function)"
+  },
+  {
+   "id": "1392",
+   "slug": "longest-happy-prefix",
+   "title": "Longest Happy Prefix",
+   "difficulty": "Hard",
+   "premium": false,
+   "match": "same technique",
+   "why": "Longest Happy Prefix (same prefix function)"
+  }
+ ],
+ "q13": [
+  {
+   "id": "283",
+   "slug": "move-zeroes",
+   "title": "Move Zeroes",
+   "difficulty": "Easy",
+   "premium": false,
+   "match": "exact pattern",
+   "why": "exact pattern: Move Zeroes (fewest writes)"
+  },
+  {
+   "id": "27",
+   "slug": "remove-element",
+   "title": "Remove Element",
+   "difficulty": "Easy",
+   "premium": false,
+   "match": "same pattern",
+   "why": "Remove Element"
+  }
+ ],
+ "q14": [
+  {
+   "id": "846",
+   "slug": "hand-of-straights",
+   "title": "Hand of Straights",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "exact",
+   "why": "exact: Hand of Straights (groupSize = 5)"
+  },
+  {
+   "id": "1296",
+   "slug": "divide-array-in-sets-of-k-consecutive-numbers",
+   "title": "Divide Array in Sets of K Consecutive Numbers",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "exact",
+   "why": "same problem, other name"
+  }
+ ],
+ "q15": [
+  {
+   "id": "78",
+   "slug": "subsets",
+   "title": "Subsets",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "technique",
+   "why": "enumerate subsets/subsequences by bitmask"
+  }
+ ],
+ "q16": [
+  {
+   "id": "925",
+   "slug": "long-pressed-name",
+   "title": "Long Pressed Name",
+   "difficulty": "Easy",
+   "premium": false,
+   "match": "exact",
+   "why": "Long Pressed Name"
+  },
+  {
+   "id": "809",
+   "slug": "expressive-words",
+   "title": "Expressive Words",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "close",
+   "why": "Expressive Words (many words vs one input)"
+  }
+ ],
+ "q17": [
+  {
+   "id": "346",
+   "slug": "moving-average-from-data-stream",
+   "title": "Moving Average from Data Stream",
+   "difficulty": "Easy",
+   "premium": true,
+   "match": "exact (Q17.1)",
+   "why": "Q17.1 Moving Average from Data Stream (premium)"
+  },
+  {
+   "id": "1825",
+   "slug": "finding-mk-average",
+   "title": "Finding MK Average",
+   "difficulty": "Hard",
+   "premium": false,
+   "match": "exact (Q17.2)",
+   "why": "Q17.2 exact: Finding MK Average"
+  }
+ ],
+ "q18": [
+  {
+   "id": "2364",
+   "slug": "count-number-of-bad-pairs",
+   "title": "Count Number of Bad Pairs",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "exact (complement)",
+   "why": "exact complement: Count Number of Bad Pairs (key a[i]\u2212i)"
+  }
+ ],
+ "q19": [
+  {
+   "id": "2013",
+   "slug": "detect-squares",
+   "title": "Detect Squares",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "close",
+   "why": "Detect Squares (axis-aligned)"
+  },
+  {
+   "id": "963",
+   "slug": "minimum-area-rectangle-ii",
+   "title": "Minimum Area Rectangle II",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "same method",
+   "why": "rotated rectangles from points"
+  }
+ ],
+ "q20": [],
+ "q21": [
+  {
+   "id": "963",
+   "slug": "minimum-area-rectangle-ii",
+   "title": "Minimum Area Rectangle II",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "same method",
+   "why": "Minimum Area Rectangle II (asks smallest; same method)"
+  }
+ ],
+ "q22": [
+  {
+   "id": "621",
+   "slug": "task-scheduler",
+   "title": "Task Scheduler",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "close",
+   "why": "Task Scheduler (cool-down between repeats)"
+  },
+  {
+   "id": "767",
+   "slug": "reorganize-string",
+   "title": "Reorganize String",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "exact",
+   "why": "no same ad twice in a row"
+  }
+ ],
+ "q23": [
+  {
+   "id": "787",
+   "slug": "cheapest-flights-within-k-stops",
+   "title": "Cheapest Flights Within K Stops",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "close",
+   "why": "Cheapest Flights Within K Stops"
+  },
+  {
+   "id": "743",
+   "slug": "network-delay-time",
+   "title": "Network Delay Time",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "close",
+   "why": "earliest arrival with Dijkstra"
+  }
+ ],
+ "q24": [
+  {
+   "id": "1254",
+   "slug": "number-of-closed-islands",
+   "title": "Number of Closed Islands",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "close",
+   "why": "Number of Closed Islands"
+  },
+  {
+   "id": "1020",
+   "slug": "number-of-enclaves",
+   "title": "Number of Enclaves",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "close",
+   "why": "Number of Enclaves"
+  }
+ ],
+ "q25": [
+  {
+   "id": "1235",
+   "slug": "maximum-profit-in-job-scheduling",
+   "title": "Maximum Profit in Job Scheduling",
+   "difficulty": "Hard",
+   "premium": false,
+   "match": "exact",
+   "why": "exact"
+  }
+ ],
+ "q26": [
+  {
+   "id": "642",
+   "slug": "design-search-autocomplete-system",
+   "title": "Design Search Autocomplete System",
+   "difficulty": "Hard",
+   "premium": true,
+   "match": "close",
+   "why": "Design Search Autocomplete System (premium)"
+  },
+  {
+   "id": "692",
+   "slug": "top-k-frequent-words",
+   "title": "Top K Frequent Words",
+   "difficulty": "Medium",
+   "premium": false,
+   "match": "close",
+   "why": "Top K Frequent Words"
+  }
+ ],
+ "q27": [
+  {
+   "id": "1101",
+   "slug": "the-earliest-moment-when-everyone-become-friends",
+   "title": "The Earliest Moment When Everyone Become Friends",
+   "difficulty": "Medium",
+   "premium": true,
+   "match": "exact",
+   "why": "exact (premium)"
+  }
+ ],
+ "q28": [
+  {
+   "id": "1274",
+   "slug": "number-of-ships-in-a-rectangle",
+   "title": "Number of Ships in a Rectangle",
+   "difficulty": "Hard",
+   "premium": true,
+   "match": "same technique",
+   "why": "Number of Ships in a Rectangle (count-query divide & conquer)"
+  }
+ ]
+}

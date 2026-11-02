@@ -1,0 +1,1 @@
+{"steps":[{"line":3,"event":"line","func":"canWinNim","locals":{"n":"8"},"watch":{},"out":0,"depth":1,"outer":{},"stack":["canWinNim(8)"]},{"line":3,"event":"return","func":"canWinNim","locals":{"n":"8"},"watch":{},"out":0,"depth":1,"retval":"False"}],"stdout":"","result":"False","error":null,"truncated":false}

@@ -1,0 +1,2209 @@
+{
+ "optiver__greater-amsterdam-area": {
+  "status": "ok",
+  "data": {
+   "currency": "EUR",
+   "location": "Amsterdam",
+   "median": 203095,
+   "p25": 166716,
+   "p75": 224270,
+   "p90": 227323,
+   "count": null,
+   "levels": [
+    {
+     "level": "L3",
+     "alt": "",
+     "total": 205993,
+     "base": 105889,
+     "stock": null,
+     "bonus": 100105,
+     "yoe": 1,
+     "count": 10
+    },
+    {
+     "level": "L4",
+     "alt": "",
+     "total": 183980,
+     "base": 82331,
+     "stock": null,
+     "bonus": 101649,
+     "yoe": 6,
+     "count": 8
+    },
+    {
+     "level": "L5",
+     "alt": "",
+     "total": 317238,
+     "base": 76804,
+     "stock": null,
+     "bonus": 240434,
+     "yoe": 9,
+     "count": 4
+    }
+   ]
+  },
+  "fetchedAt": 1791725370105
+ },
+ "optiver__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 151368,
+   "p25": 147913,
+   "p75": 186191,
+   "p90": 189668,
+   "count": null,
+   "levels": [
+    {
+     "level": "L3",
+     "alt": "",
+     "total": 152503,
+     "base": 93852,
+     "stock": 8160,
+     "bonus": 50491,
+     "yoe": 0,
+     "count": 5
+    }
+   ]
+  },
+  "fetchedAt": 1791725370861
+ },
+ "optiver__greater-chicago-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "Chicago",
+   "median": 375000,
+   "p25": 287500,
+   "p75": 400000,
+   "p90": 450000,
+   "count": null,
+   "levels": [
+    {
+     "level": "L3",
+     "alt": "",
+     "total": 312125,
+     "base": 189500,
+     "stock": 16250,
+     "bonus": 106375,
+     "yoe": 0,
+     "count": 10
+    },
+    {
+     "level": "L4",
+     "alt": "",
+     "total": 505625,
+     "base": 177500,
+     "stock": null,
+     "bonus": 328125,
+     "yoe": 2,
+     "count": 8
+    }
+   ]
+  },
+  "fetchedAt": 1791725371742
+ },
+ "optiver__australia": {
+  "status": "ok",
+  "data": {
+   "currency": "AUD",
+   "location": "Australia",
+   "median": 241483,
+   "p25": 221243,
+   "p75": 398581,
+   "p90": 403077,
+   "count": null,
+   "levels": [
+    {
+     "level": "L3",
+     "alt": "",
+     "total": 219785,
+     "base": 145512,
+     "stock": null,
+     "bonus": 74273,
+     "yoe": 1,
+     "count": 13
+    },
+    {
+     "level": "L4",
+     "alt": "",
+     "total": 323112,
+     "base": 128376,
+     "stock": null,
+     "bonus": 194736,
+     "yoe": 3,
+     "count": 5
+    }
+   ]
+  },
+  "fetchedAt": 1791725372767
+ },
+ "optiver__singapore": {
+  "status": "ok",
+  "data": {
+   "currency": "SGD",
+   "location": "Singapore",
+   "median": 250810,
+   "p25": 250810,
+   "p75": 250810,
+   "p90": 250810,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725374425
+ },
+ "optiver__hong-kong-sar": {
+  "status": "none",
+  "fetchedAt": 1791725375174
+ },
+ "imc__greater-amsterdam-area": {
+  "status": "ok",
+  "data": {
+   "currency": "EUR",
+   "location": "Amsterdam",
+   "median": 149119,
+   "p25": 140838,
+   "p75": 166132,
+   "p90": 202692,
+   "count": null,
+   "levels": [
+    {
+     "level": "L1",
+     "alt": "",
+     "total": 149589,
+     "base": 115263,
+     "stock": null,
+     "bonus": 34325,
+     "yoe": 0,
+     "count": 11
+    },
+    {
+     "level": "L2",
+     "alt": "",
+     "total": 155047,
+     "base": 104739,
+     "stock": null,
+     "bonus": 50308,
+     "yoe": 3,
+     "count": 11
+    },
+    {
+     "level": "L3",
+     "alt": "",
+     "total": 149346,
+     "base": 107463,
+     "stock": null,
+     "bonus": 41883,
+     "yoe": 7,
+     "count": 10
+    },
+    {
+     "level": "L4",
+     "alt": "",
+     "total": 169667,
+     "base": 106120,
+     "stock": null,
+     "bonus": 63546,
+     "yoe": 5,
+     "count": 5
+    }
+   ]
+  },
+  "fetchedAt": 1791725376436
+ },
+ "imc__greater-chicago-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "Chicago",
+   "median": 200000,
+   "p25": 200000,
+   "p75": 325000,
+   "p90": 410000,
+   "count": null,
+   "levels": [
+    {
+     "level": "L1",
+     "alt": "",
+     "total": 269438,
+     "base": 186833,
+     "stock": null,
+     "bonus": 82604,
+     "yoe": 0,
+     "count": 12
+    },
+    {
+     "level": "L2",
+     "alt": "",
+     "total": 318125,
+     "base": 180625,
+     "stock": null,
+     "bonus": 137500,
+     "yoe": 3,
+     "count": 8
+    },
+    {
+     "level": "L3",
+     "alt": "",
+     "total": 294977,
+     "base": 180909,
+     "stock": 91,
+     "bonus": 113977,
+     "yoe": 2,
+     "count": 11
+    },
+    {
+     "level": "L4",
+     "alt": "",
+     "total": 393750,
+     "base": 193750,
+     "stock": null,
+     "bonus": 200000,
+     "yoe": 5,
+     "count": 4
+    }
+   ]
+  },
+  "fetchedAt": 1791725377562
+ },
+ "imc__australia": {
+  "status": "ok",
+  "data": {
+   "currency": "AUD",
+   "location": "Australia",
+   "median": 235558,
+   "p25": 189449,
+   "p75": 273397,
+   "p90": 285200,
+   "count": null,
+   "levels": [
+    {
+     "level": "L1",
+     "alt": "",
+     "total": 212253,
+     "base": 154414,
+     "stock": null,
+     "bonus": 57839,
+     "yoe": 1,
+     "count": 5
+    },
+    {
+     "level": "L2",
+     "alt": "",
+     "total": 307370,
+     "base": 159644,
+     "stock": null,
+     "bonus": 147726,
+     "yoe": 4,
+     "count": 3
+    },
+    {
+     "level": "L3",
+     "alt": "",
+     "total": 271168,
+     "base": 168004,
+     "stock": null,
+     "bonus": 103164,
+     "yoe": 5,
+     "count": 3
+    }
+   ]
+  },
+  "fetchedAt": 1791725378883
+ },
+ "imc__hong-kong-sar": {
+  "status": "ok",
+  "data": {
+   "currency": "HKD",
+   "location": "Hong Kong (SAR)",
+   "median": 999337,
+   "p25": 999337,
+   "p75": 999337,
+   "p90": 999337,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725380414
+ },
+ "imc__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 119840,
+   "p25": 119840,
+   "p75": 119840,
+   "p90": 119840,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725381168
+ },
+ "flow-traders__greater-amsterdam-area": {
+  "status": "ok",
+  "data": {
+   "currency": "EUR",
+   "location": "Amsterdam",
+   "median": 124590,
+   "p25": 86987,
+   "p75": 146651,
+   "p90": 155473,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725382307
+ },
+ "flow-traders__singapore": {
+  "status": "none",
+  "fetchedAt": 1791725383307
+ },
+ "flow-traders__hong-kong-sar": {
+  "status": "none",
+  "fetchedAt": 1791725384943
+ },
+ "flow-traders__new-york-city-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "New York City",
+   "median": 150000,
+   "p25": 110000,
+   "p75": 129000,
+   "p90": 194374,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725385979
+ },
+ "flow-traders__london-metro-area": {
+  "status": "none",
+  "fetchedAt": 1791725387897
+ },
+ "da-vinci-derivatives__greater-amsterdam-area": {
+  "status": "ok",
+  "data": {
+   "currency": "EUR",
+   "location": "Amsterdam",
+   "median": 114491,
+   "p25": 82839,
+   "p75": 125506,
+   "p90": 143530,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725389202
+ },
+ "all-options__greater-amsterdam-area": {
+  "status": "ok",
+  "data": {
+   "currency": "EUR",
+   "location": "Amsterdam",
+   "median": 86248,
+   "p25": 72616,
+   "p75": 122469,
+   "p90": 122469,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725390390
+ },
+ "jane-street__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 241908,
+   "p25": 238650,
+   "p75": 253458,
+   "p90": 278905,
+   "count": null,
+   "levels": [
+    {
+     "level": "L1",
+     "alt": "",
+     "total": 243829,
+     "base": 175500,
+     "stock": 1753,
+     "bonus": 66576,
+     "yoe": 0,
+     "count": 11
+    },
+    {
+     "level": "L3",
+     "alt": "",
+     "total": 181991,
+     "base": 131403,
+     "stock": null,
+     "bonus": 50587,
+     "yoe": 0,
+     "count": 2
+    }
+   ]
+  },
+  "fetchedAt": 1791725391429
+ },
+ "jane-street__new-york-city-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "New York City",
+   "median": 350000,
+   "p25": 300000,
+   "p75": 461250,
+   "p90": 590000,
+   "count": null,
+   "levels": [
+    {
+     "level": "L1",
+     "alt": "",
+     "total": 357236,
+     "base": 266667,
+     "stock": 7917,
+     "bonus": 82653,
+     "yoe": 0,
+     "count": 18
+    },
+    {
+     "level": "L2",
+     "alt": "",
+     "total": 343300,
+     "base": 247500,
+     "stock": 30800,
+     "bonus": 65000,
+     "yoe": 3,
+     "count": 10
+    },
+    {
+     "level": "L3",
+     "alt": "",
+     "total": 449763,
+     "base": 262105,
+     "stock": 15908,
+     "bonus": 171750,
+     "yoe": 4,
+     "count": 19
+    },
+    {
+     "level": "L4",
+     "alt": "",
+     "total": 378375,
+     "base": 256250,
+     "stock": 12750,
+     "bonus": 109375,
+     "yoe": 4,
+     "count": 8
+    }
+   ]
+  },
+  "fetchedAt": 1791725392320
+ },
+ "jane-street__hong-kong-sar": {
+  "status": "ok",
+  "data": {
+   "currency": "HKD",
+   "location": "Hong Kong (SAR)",
+   "median": 1509754,
+   "p25": 1355497,
+   "p75": 1997440,
+   "p90": 2999178,
+   "count": null,
+   "levels": [
+    {
+     "level": "L1",
+     "alt": "",
+     "total": 1954810,
+     "base": 1904603,
+     "stock": null,
+     "bonus": 50207,
+     "yoe": 0,
+     "count": 3
+    }
+   ]
+  },
+  "fetchedAt": 1791725393517
+ },
+ "jane-street__singapore": {
+  "status": "none",
+  "fetchedAt": 1791725395164
+ },
+ "jane-street__greater-amsterdam-area": {
+  "status": "none",
+  "fetchedAt": 1791725396602
+ },
+ "citadel__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 317915,
+   "p25": 271088,
+   "p75": 421279,
+   "p90": 446223,
+   "count": null,
+   "levels": [
+    {
+     "level": "Software Engineer",
+     "alt": "",
+     "total": 290364,
+     "base": 188934,
+     "stock": 4414,
+     "bonus": 97016,
+     "yoe": 0,
+     "count": 4
+    }
+   ]
+  },
+  "fetchedAt": 1791725397481
+ },
+ "citadel__new-york-city-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "New York City",
+   "median": 411600,
+   "p25": 375000,
+   "p75": 550000,
+   "p90": 630000,
+   "count": null,
+   "levels": [
+    {
+     "level": "Software Engineer",
+     "alt": "",
+     "total": 498209,
+     "base": 269558,
+     "stock": 8421,
+     "bonus": 220230,
+     "yoe": 5,
+     "count": 19
+    }
+   ]
+  },
+  "fetchedAt": 1791725398542
+ },
+ "citadel__greater-chicago-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "Chicago",
+   "median": 350000,
+   "p25": 285000,
+   "p75": 475000,
+   "p90": 570000,
+   "count": null,
+   "levels": [
+    {
+     "level": "Software Engineer",
+     "alt": "",
+     "total": 441667,
+     "base": 233333,
+     "stock": null,
+     "bonus": 208333,
+     "yoe": 6,
+     "count": 3
+    }
+   ]
+  },
+  "fetchedAt": 1791725399739
+ },
+ "citadel__greater-zurich-area": {
+  "status": "none",
+  "fetchedAt": 1791725402843
+ },
+ "citadel__greater-paris-area": {
+  "status": "none",
+  "fetchedAt": 1791725404817
+ },
+ "citadel__singapore": {
+  "status": "ok",
+  "data": {
+   "currency": "SGD",
+   "location": "Singapore",
+   "median": 217065,
+   "p25": 156702,
+   "p75": 217071,
+   "p90": 260148,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725405990
+ },
+ "citadel__hong-kong-sar": {
+  "status": "ok",
+  "data": {
+   "currency": "HKD",
+   "location": "Hong Kong (SAR)",
+   "median": 1662778,
+   "p25": 1411200,
+   "p75": 2197295,
+   "p90": 3528000,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725407995
+ },
+ "citadel__greater-dublin-area": {
+  "status": "none",
+  "fetchedAt": 1791725409127
+ },
+ "hudson-river-trading__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 239485,
+   "p25": 203798,
+   "p75": 330343,
+   "p90": 435441,
+   "count": null,
+   "levels": [
+    {
+     "level": "L2",
+     "alt": "Software Engineer",
+     "total": 357708,
+     "base": 176368,
+     "stock": null,
+     "bonus": 181340,
+     "yoe": 10,
+     "count": 2
+    },
+    {
+     "level": "L3",
+     "alt": "Senior Software Engineer",
+     "total": 270395,
+     "base": 141359,
+     "stock": null,
+     "bonus": 129036,
+     "yoe": 0,
+     "count": 2
+    }
+   ]
+  },
+  "fetchedAt": 1791725410203
+ },
+ "hudson-river-trading__new-york-city-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "New York City",
+   "median": 500000,
+   "p25": 400000,
+   "p75": 600000,
+   "p90": 700000,
+   "count": null,
+   "levels": [
+    {
+     "level": "L1",
+     "alt": "Junior Software Engineer",
+     "total": 410084,
+     "base": 219584,
+     "stock": 4000,
+     "bonus": 186500,
+     "yoe": 0,
+     "count": 25
+    },
+    {
+     "level": "L2",
+     "alt": "Software Engineer",
+     "total": 515185,
+     "base": 257500,
+     "stock": null,
+     "bonus": 257685,
+     "yoe": 2,
+     "count": 10
+    },
+    {
+     "level": "L3",
+     "alt": "Senior Software Engineer",
+     "total": 603125,
+     "base": 312500,
+     "stock": 31250,
+     "bonus": 259375,
+     "yoe": 10,
+     "count": 4
+    }
+   ]
+  },
+  "fetchedAt": 1791725411792
+ },
+ "hudson-river-trading__singapore": {
+  "status": "ok",
+  "data": {
+   "currency": "SGD",
+   "location": "Singapore",
+   "median": 828947,
+   "p25": 416142,
+   "p75": 828947,
+   "p90": 863518,
+   "count": null,
+   "levels": [
+    {
+     "level": "L1",
+     "alt": "Junior Software Engineer",
+     "total": 590201,
+     "base": 280811,
+     "stock": null,
+     "bonus": 309389,
+     "yoe": 0,
+     "count": 8
+    },
+    {
+     "level": "L2",
+     "alt": "Software Engineer",
+     "total": 571072,
+     "base": 232206,
+     "stock": null,
+     "bonus": 338866,
+     "yoe": 5,
+     "count": 5
+    }
+   ]
+  },
+  "fetchedAt": 1791725412831
+ },
+ "hudson-river-trading__hong-kong-sar": {
+  "status": "none",
+  "fetchedAt": 1791725413930
+ },
+ "hudson-river-trading__greater-chicago-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "Chicago",
+   "median": 245000,
+   "p25": 245000,
+   "p75": 245000,
+   "p90": 245000,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725416172
+ },
+ "jump-trading__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 220571,
+   "p25": 191303,
+   "p75": 245738,
+   "p90": 270821,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725417630
+ },
+ "jump-trading__greater-chicago-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "Chicago",
+   "median": 400000,
+   "p25": 387500,
+   "p75": 550000,
+   "p90": 600000,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725419113
+ },
+ "jump-trading__new-york-city-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "New York City",
+   "median": 430000,
+   "p25": 300000,
+   "p75": 687500,
+   "p90": 811250,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725420882
+ },
+ "jump-trading__singapore": {
+  "status": "ok",
+  "data": {
+   "currency": "SGD",
+   "location": "Singapore",
+   "median": 422964,
+   "p25": 346172,
+   "p75": 470457,
+   "p90": 766200,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725422132
+ },
+ "jump-trading__greater-amsterdam-area": {
+  "status": "none",
+  "fetchedAt": 1791725423222
+ },
+ "xtx-markets__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 187250,
+   "p25": 142941,
+   "p75": 227475,
+   "p90": 307887,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725423961
+ },
+ "xtx-markets__singapore": {
+  "status": "none",
+  "fetchedAt": 1791725425872
+ },
+ "xtx-markets__new-york-city-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "New York City",
+   "median": 142500,
+   "p25": 142500,
+   "p75": 142500,
+   "p90": 142500,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725427551
+ },
+ "xtx-markets__greater-paris-area": {
+  "status": "none",
+  "fetchedAt": 1791725428953
+ },
+ "g-research__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 187808,
+   "p25": 95561,
+   "p75": 165997,
+   "p90": 208035,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725430067
+ },
+ "two-sigma__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 203354,
+   "p25": 166321,
+   "p75": 203354,
+   "p90": 205975,
+   "count": null,
+   "levels": [
+    {
+     "level": "L1",
+     "alt": "",
+     "total": 145469,
+     "base": 107866,
+     "stock": null,
+     "bonus": 37602,
+     "yoe": 0,
+     "count": 4
+    },
+    {
+     "level": "L2",
+     "alt": "",
+     "total": 182597,
+     "base": 121732,
+     "stock": null,
+     "bonus": 60866,
+     "yoe": 2,
+     "count": 2
+    },
+    {
+     "level": "L3",
+     "alt": "",
+     "total": 241299,
+     "base": 130855,
+     "stock": null,
+     "bonus": 110445,
+     "yoe": 3,
+     "count": 4
+    }
+   ]
+  },
+  "fetchedAt": 1791725431198
+ },
+ "two-sigma__new-york-city-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "New York City",
+   "median": 350000,
+   "p25": 300000,
+   "p75": 500000,
+   "p90": 550000,
+   "count": null,
+   "levels": [
+    {
+     "level": "L1",
+     "alt": "",
+     "total": 241663,
+     "base": 163112,
+     "stock": 2083,
+     "bonus": 76467,
+     "yoe": 0,
+     "count": 66
+    },
+    {
+     "level": "L2",
+     "alt": "",
+     "total": 304000,
+     "base": 188846,
+     "stock": null,
+     "bonus": 115154,
+     "yoe": 3,
+     "count": 13
+    },
+    {
+     "level": "L3",
+     "alt": "",
+     "total": 341318,
+     "base": 210727,
+     "stock": null,
+     "bonus": 130591,
+     "yoe": 4,
+     "count": 11
+    },
+    {
+     "level": "L4",
+     "alt": "",
+     "total": 466243,
+     "base": 276150,
+     "stock": null,
+     "bonus": 190093,
+     "yoe": 9,
+     "count": 18
+    },
+    {
+     "level": "L5",
+     "alt": "",
+     "total": 569417,
+     "base": 278083,
+     "stock": 5833,
+     "bonus": 285500,
+     "yoe": 18,
+     "count": 6
+    },
+    {
+     "level": "L6",
+     "alt": "",
+     "total": 730000,
+     "base": 323000,
+     "stock": null,
+     "bonus": 407000,
+     "yoe": 15,
+     "count": 5
+    }
+   ]
+  },
+  "fetchedAt": 1791725432313
+ },
+ "drw__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 173201,
+   "p25": 133617,
+   "p75": 193833,
+   "p90": 199718,
+   "count": null,
+   "levels": [
+    {
+     "level": "L2",
+     "alt": "",
+     "total": 161437,
+     "base": 111197,
+     "stock": null,
+     "bonus": 50241,
+     "yoe": 0,
+     "count": 5
+    },
+    {
+     "level": "L3",
+     "alt": "",
+     "total": 136376,
+     "base": 96088,
+     "stock": null,
+     "bonus": 40289,
+     "yoe": 0,
+     "count": 2
+    },
+    {
+     "level": "L5",
+     "alt": "",
+     "total": 196775,
+     "base": 143086,
+     "stock": null,
+     "bonus": 53690,
+     "yoe": 3,
+     "count": 2
+    }
+   ]
+  },
+  "fetchedAt": 1791725434463
+ },
+ "drw__greater-chicago-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "Chicago",
+   "median": 278000,
+   "p25": 200000,
+   "p75": 310000,
+   "p90": 380000,
+   "count": null,
+   "levels": [
+    {
+     "level": "L2",
+     "alt": "",
+     "total": 201550,
+     "base": 167000,
+     "stock": null,
+     "bonus": 34550,
+     "yoe": 1,
+     "count": 5
+    },
+    {
+     "level": "L3",
+     "alt": "",
+     "total": 241333,
+     "base": 168333,
+     "stock": null,
+     "bonus": 73000,
+     "yoe": 3,
+     "count": 15
+    },
+    {
+     "level": "L4",
+     "alt": "",
+     "total": 316625,
+     "base": 238125,
+     "stock": null,
+     "bonus": 78500,
+     "yoe": 5,
+     "count": 8
+    },
+    {
+     "level": "L5",
+     "alt": "",
+     "total": 390000,
+     "base": 205000,
+     "stock": null,
+     "bonus": 185000,
+     "yoe": 5,
+     "count": 3
+    }
+   ]
+  },
+  "fetchedAt": 1791725436202
+ },
+ "drw__new-york-city-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "New York City",
+   "median": 185000,
+   "p25": 150000,
+   "p75": 300000,
+   "p90": 400000,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725437738
+ },
+ "drw__singapore": {
+  "status": "ok",
+  "data": {
+   "currency": "SGD",
+   "location": "Singapore",
+   "median": 263634,
+   "p25": 263634,
+   "p75": 308027,
+   "p90": 308027,
+   "count": null,
+   "levels": [
+    {
+     "level": "L3",
+     "alt": "",
+     "total": 285831,
+     "base": 224324,
+     "stock": null,
+     "bonus": 61507,
+     "yoe": 4,
+     "count": 2
+    }
+   ]
+  },
+  "fetchedAt": 1791725438610
+ },
+ "tower-research-capital__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 190161,
+   "p25": 118762,
+   "p75": 338934,
+   "p90": 338934,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725440067
+ },
+ "tower-research-capital__new-york-city-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "New York City",
+   "median": 200000,
+   "p25": 200000,
+   "p75": 300000,
+   "p90": 600000,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725441756
+ },
+ "tower-research-capital__singapore": {
+  "status": "ok",
+  "data": {
+   "currency": "SGD",
+   "location": "Singapore",
+   "median": 333418,
+   "p25": 178780,
+   "p75": 543510,
+   "p90": 638500,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725442796
+ },
+ "susquehanna-international-group__greater-dublin-area": {
+  "status": "ok",
+  "data": {
+   "currency": "EUR",
+   "location": "Dublin",
+   "median": 146687,
+   "p25": 99680,
+   "p75": 192444,
+   "p90": 255471,
+   "count": null,
+   "levels": [
+    {
+     "level": "Software Engineer",
+     "alt": "",
+     "total": 105622,
+     "base": 98102,
+     "stock": null,
+     "bonus": 7521,
+     "yoe": 4,
+     "count": 11
+    },
+    {
+     "level": "Senior Software Engineer",
+     "alt": "",
+     "total": 167930,
+     "base": 143314,
+     "stock": null,
+     "bonus": 24616,
+     "yoe": 9,
+     "count": 6
+    },
+    {
+     "level": "Technical Lead",
+     "alt": "",
+     "total": 205479,
+     "base": 171558,
+     "stock": null,
+     "bonus": 33921,
+     "yoe": 10,
+     "count": 3
+    }
+   ]
+  },
+  "fetchedAt": 1791725443825
+ },
+ "susquehanna-international-group__london-metro-area": {
+  "status": "none",
+  "fetchedAt": 1791725445018
+ },
+ "susquehanna-international-group__new-york-city-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "New York City",
+   "median": 330000,
+   "p25": 231250,
+   "p75": 330000,
+   "p90": 400000,
+   "count": null,
+   "levels": [
+    {
+     "level": "Software Engineer",
+     "alt": "",
+     "total": 321250,
+     "base": 215000,
+     "stock": null,
+     "bonus": 106250,
+     "yoe": 2,
+     "count": 3
+    },
+    {
+     "level": "Senior Software Engineer",
+     "alt": "",
+     "total": 315000,
+     "base": 235000,
+     "stock": null,
+     "bonus": 80000,
+     "yoe": 6,
+     "count": 2
+    }
+   ]
+  },
+  "fetchedAt": 1791725446145
+ },
+ "susquehanna-international-group__greater-amsterdam-area": {
+  "status": "none",
+  "fetchedAt": 1791725447168
+ },
+ "susquehanna-international-group__hong-kong-sar": {
+  "status": "none",
+  "fetchedAt": 1791725448758
+ },
+ "susquehanna-international-group__australia": {
+  "status": "ok",
+  "data": {
+   "currency": "AUD",
+   "location": "Australia",
+   "median": 220979,
+   "p25": 186122,
+   "p75": 263933,
+   "p90": 270015,
+   "count": null,
+   "levels": [
+    {
+     "level": "Software Engineer",
+     "alt": "",
+     "total": 197223,
+     "base": 168713,
+     "stock": null,
+     "bonus": 28510,
+     "yoe": 4,
+     "count": 13
+    },
+    {
+     "level": "Senior Software Engineer",
+     "alt": "",
+     "total": 228594,
+     "base": 199216,
+     "stock": null,
+     "bonus": 29376,
+     "yoe": 18,
+     "count": 9
+    }
+   ]
+  },
+  "fetchedAt": 1791725449813
+ },
+ "maven-securities__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 141241,
+   "p25": 132011,
+   "p75": 214448,
+   "p90": 233813,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725451432
+ },
+ "maven-securities__hong-kong-sar": {
+  "status": "ok",
+  "data": {
+   "currency": "HKD",
+   "location": "Hong Kong (SAR)",
+   "median": 722385,
+   "p25": 722385,
+   "p75": 722385,
+   "p90": 722385,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725453276
+ },
+ "squarepoint-capital__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 114202,
+   "p25": 79051,
+   "p75": 136493,
+   "p90": 155646,
+   "count": null,
+   "levels": [
+    {
+     "level": "Junior Software Engineer",
+     "alt": "",
+     "total": 78748,
+     "base": 65484,
+     "stock": null,
+     "bonus": 13264,
+     "yoe": 1,
+     "count": 9
+    },
+    {
+     "level": "Software Engineer",
+     "alt": "",
+     "total": 128331,
+     "base": 98455,
+     "stock": null,
+     "bonus": 29876,
+     "yoe": 4,
+     "count": 13
+    },
+    {
+     "level": "Senior Software Engineer",
+     "alt": "",
+     "total": 150747,
+     "base": 123813,
+     "stock": null,
+     "bonus": 26933,
+     "yoe": 10,
+     "count": 7
+    }
+   ]
+  },
+  "fetchedAt": 1791725454502
+ },
+ "squarepoint-capital__new-york-city-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "New York City",
+   "median": 210000,
+   "p25": 150000,
+   "p75": 400000,
+   "p90": 405000,
+   "count": null,
+   "levels": [
+    {
+     "level": "Software Engineer",
+     "alt": "",
+     "total": 307500,
+     "base": 217500,
+     "stock": null,
+     "bonus": 90000,
+     "yoe": 4,
+     "count": 2
+    }
+   ]
+  },
+  "fetchedAt": 1791725455378
+ },
+ "squarepoint-capital__singapore": {
+  "status": "ok",
+  "data": {
+   "currency": "SGD",
+   "location": "Singapore",
+   "median": 143943,
+   "p25": 109857,
+   "p75": 188684,
+   "p90": 197341,
+   "count": null,
+   "levels": [
+    {
+     "level": "Junior Software Engineer",
+     "alt": "",
+     "total": 117672,
+     "base": 107853,
+     "stock": null,
+     "bonus": 9819,
+     "yoe": 0,
+     "count": 7
+    },
+    {
+     "level": "Software Engineer",
+     "alt": "",
+     "total": 163902,
+     "base": 133533,
+     "stock": null,
+     "bonus": 30368,
+     "yoe": 4,
+     "count": 7
+    },
+    {
+     "level": "Senior Software Engineer",
+     "alt": "",
+     "total": 169921,
+     "base": 146685,
+     "stock": null,
+     "bonus": 23235,
+     "yoe": 5,
+     "count": 4
+    }
+   ]
+  },
+  "fetchedAt": 1791725456254
+ },
+ "squarepoint-capital__greater-paris-area": {
+  "status": "ok",
+  "data": {
+   "currency": "EUR",
+   "location": "Paris",
+   "median": 113432,
+   "p25": 89640,
+   "p75": 145198,
+   "p90": 145198,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725457745
+ },
+ "qube-research-and-technologies__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 125961,
+   "p25": 104038,
+   "p75": 150813,
+   "p90": 175114,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725459198
+ },
+ "qube-research-and-technologies__greater-paris-area": {
+  "status": "ok",
+  "data": {
+   "currency": "EUR",
+   "location": "Paris",
+   "median": 113929,
+   "p25": 107596,
+   "p75": 177738,
+   "p90": 205471,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725460385
+ },
+ "qube-research-and-technologies__singapore": {
+  "status": "ok",
+  "data": {
+   "currency": "SGD",
+   "location": "Singapore",
+   "median": 215159,
+   "p25": 118964,
+   "p75": 278918,
+   "p90": 278918,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725462049
+ },
+ "qube-research-and-technologies__hong-kong-sar": {
+  "status": "ok",
+  "data": {
+   "currency": "HKD",
+   "location": "Hong Kong (SAR)",
+   "median": 1089772,
+   "p25": 1085301,
+   "p75": 1411881,
+   "p90": 1480752,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725463301
+ },
+ "millennium__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 158016,
+   "p25": 125539,
+   "p75": 179704,
+   "p90": 182049,
+   "count": null,
+   "levels": [
+    {
+     "level": "Software Engineer",
+     "alt": "",
+     "total": 146349,
+     "base": 116017,
+     "stock": 1053,
+     "bonus": 29278,
+     "yoe": 3,
+     "count": 9
+    },
+    {
+     "level": "Senior Software Engineer",
+     "alt": "",
+     "total": 179764,
+     "base": 140318,
+     "stock": null,
+     "bonus": 39446,
+     "yoe": 5,
+     "count": 2
+    }
+   ]
+  },
+  "fetchedAt": 1791725464519
+ },
+ "millennium__new-york-city-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "New York City",
+   "median": 287500,
+   "p25": 165000,
+   "p75": 375000,
+   "p90": 400000,
+   "count": null,
+   "levels": [
+    {
+     "level": "Software Engineer",
+     "alt": "",
+     "total": 220604,
+     "base": 168250,
+     "stock": null,
+     "bonus": 52354,
+     "yoe": 1,
+     "count": 12
+    },
+    {
+     "level": "Senior Software Engineer",
+     "alt": "",
+     "total": 325556,
+     "base": 204444,
+     "stock": null,
+     "bonus": 121111,
+     "yoe": 9,
+     "count": 9
+    },
+    {
+     "level": "Lead Software Engineer",
+     "alt": "",
+     "total": 508333,
+     "base": 233333,
+     "stock": null,
+     "bonus": 275000,
+     "yoe": 15,
+     "count": 3
+    },
+    {
+     "level": "Principal Software Engineer",
+     "alt": "",
+     "total": 665000,
+     "base": 200000,
+     "stock": 15000,
+     "bonus": 450000,
+     "yoe": 8,
+     "count": 2
+    }
+   ]
+  },
+  "fetchedAt": 1791725465399
+ },
+ "millennium__singapore": {
+  "status": "ok",
+  "data": {
+   "currency": "SGD",
+   "location": "Singapore",
+   "median": 147013,
+   "p25": 108983,
+   "p75": 150518,
+   "p90": 270929,
+   "count": null,
+   "levels": [
+    {
+     "level": "Software Engineer",
+     "alt": "",
+     "total": 175641,
+     "base": 131162,
+     "stock": null,
+     "bonus": 44479,
+     "yoe": 4,
+     "count": 3
+    }
+   ]
+  },
+  "fetchedAt": 1791725466425
+ },
+ "millennium__greater-dublin-area": {
+  "status": "ok",
+  "data": {
+   "currency": "EUR",
+   "location": "Dublin",
+   "median": 112694,
+   "p25": 73784,
+   "p75": 165275,
+   "p90": 182664,
+   "count": null,
+   "levels": [
+    {
+     "level": "Software Engineer",
+     "alt": "",
+     "total": 168999,
+     "base": 118078,
+     "stock": null,
+     "bonus": 50920,
+     "yoe": 0,
+     "count": 2
+    },
+    {
+     "level": "Senior Software Engineer",
+     "alt": "",
+     "total": 160768,
+     "base": 134342,
+     "stock": null,
+     "bonus": 26427,
+     "yoe": 13,
+     "count": 3
+    }
+   ]
+  },
+  "fetchedAt": 1791725468014
+ },
+ "marshall-wace__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 151000,
+   "p25": 112350,
+   "p75": 202230,
+   "p90": 276530,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725469043
+ },
+ "man-group__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 127784,
+   "p25": 110990,
+   "p75": 173759,
+   "p90": 219555,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725470181
+ },
+ "quadrature__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 95838,
+   "p25": 95838,
+   "p75": 95838,
+   "p90": 95838,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725471474
+ },
+ "wintermute__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 277655,
+   "p25": 110756,
+   "p75": 277655,
+   "p90": 320146,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725472998
+ },
+ "wintermute__singapore": {
+  "status": "ok",
+  "data": {
+   "currency": "SGD",
+   "location": "Singapore",
+   "median": 356161,
+   "p25": 356161,
+   "p75": 356161,
+   "p90": 356161,
+   "count": null,
+   "levels": []
+  },
+  "fetchedAt": 1791725474131
+ },
+ "akuna-capital__greater-chicago-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "Chicago",
+   "median": 255000,
+   "p25": 201500,
+   "p75": 285000,
+   "p90": 380000,
+   "count": null,
+   "levels": [
+    {
+     "level": "Junior Software Engineer",
+     "alt": "",
+     "total": 220015,
+     "base": 146706,
+     "stock": 735,
+     "bonus": 72574,
+     "yoe": 0,
+     "count": 17
+    },
+    {
+     "level": "Mid Level Software Engineer",
+     "alt": "",
+     "total": 265656,
+     "base": 162500,
+     "stock": null,
+     "bonus": 103156,
+     "yoe": 3,
+     "count": 16
+    },
+    {
+     "level": "Senior Software Engineer",
+     "alt": "",
+     "total": 491400,
+     "base": 204400,
+     "stock": null,
+     "bonus": 287000,
+     "yoe": 6,
+     "count": 5
+    }
+   ]
+  },
+  "fetchedAt": 1791725475006
+ },
+ "akuna-capital__australia": {
+  "status": "ok",
+  "data": {
+   "currency": "AUD",
+   "location": "Australia",
+   "median": 185003,
+   "p25": 154008,
+   "p75": 194776,
+   "p90": 202441,
+   "count": null,
+   "levels": [
+    {
+     "level": "Junior Software Engineer",
+     "alt": "",
+     "total": 157349,
+     "base": 133504,
+     "stock": null,
+     "bonus": 23846,
+     "yoe": 1,
+     "count": 9
+    },
+    {
+     "level": "Mid Level Software Engineer",
+     "alt": "",
+     "total": 201669,
+     "base": 161258,
+     "stock": null,
+     "bonus": 40411,
+     "yoe": 2,
+     "count": 2
+    }
+   ]
+  },
+  "fetchedAt": 1791725476052
+ },
+ "akuna-capital__greater-amsterdam-area": {
+  "status": "none",
+  "fetchedAt": 1791725478055
+ },
+ "jpmorgan-chase__london-metro-area": {
+  "status": "ok",
+  "data": {
+   "currency": "GBP",
+   "location": "London",
+   "median": 114462,
+   "p25": 92282,
+   "p75": 148414,
+   "p90": 174585,
+   "count": null,
+   "levels": [
+    {
+     "level": "Analyst",
+     "alt": "502",
+     "total": 59564,
+     "base": 55686,
+     "stock": null,
+     "bonus": 3878,
+     "yoe": 1,
+     "count": 19
+    },
+    {
+     "level": "Associate",
+     "alt": "601",
+     "total": 84776,
+     "base": 74607,
+     "stock": 393,
+     "bonus": 9774,
+     "yoe": 4,
+     "count": 26
+    },
+    {
+     "level": "Senior Associate",
+     "alt": "602",
+     "total": 100165,
+     "base": 89564,
+     "stock": null,
+     "bonus": 10600,
+     "yoe": 6,
+     "count": 10
+    },
+    {
+     "level": "Vice President",
+     "alt": "603",
+     "total": 146312,
+     "base": 126388,
+     "stock": 596,
+     "bonus": 19328,
+     "yoe": 15,
+     "count": 15
+    },
+    {
+     "level": "Executive Director",
+     "alt": "604",
+     "total": 231574,
+     "base": 167279,
+     "stock": 11102,
+     "bonus": 53193,
+     "yoe": 14,
+     "count": 4
+    }
+   ]
+  },
+  "fetchedAt": 1791725478805
+ },
+ "jpmorgan-chase__new-york-city-area": {
+  "status": "ok",
+  "data": {
+   "currency": "USD",
+   "location": "New York City",
+   "median": 150000,
+   "p25": 110000,
+   "p75": 205000,
+   "p90": 256000,
+   "count": null,
+   "levels": [
+    {
+     "level": "Analyst",
+     "alt": "502",
+     "total": 118250,
+     "base": 111000,
+     "stock": null,
+     "bonus": 7250,
+     "yoe": 0,
+     "count": 10
+    },
+    {
+     "level": "Associate",
+     "alt": "601",
+     "total": 149412,
+     "base": 135824,
+     "stock": 588,
+     "bonus": 13000,
+     "yoe": 4,
+     "count": 17
+    },
+    {
+     "level": "Senior Associate",
+     "alt": "602",
+     "total": 165883,
+     "base": 150550,
+     "stock": null,
+     "bonus": 15333,
+     "yoe": 6,
+     "count": 12
+    },
+    {
+     "level": "Vice President",
+     "alt": "603",
+     "total": 220667,
+     "base": 178750,
+     "stock": 2917,
+     "bonus": 39000,
+     "yoe": 11,
+     "count": 12
+    },
+    {
+     "level": "Executive Director",
+     "alt": "604",
+     "total": 425000,
+     "base": 273750,
+     "stock": 24250,
+     "bonus": 127000,
+     "yoe": 20,
+     "count": 4
+    },
+    {
+     "level": "Managing Director",
+     "alt": "605",
+     "total": 647500,
+     "base": 337500,
+     "stock": 125000,
+     "bonus": 185000,
+     "yoe": 14,
+     "count": 2
+    }
+   ]
+  },
+  "fetchedAt": 1791725479686
+ },
+ "jpmorgan-chase__greater-dublin-area": {
+  "status": "ok",
+  "data": {
+   "currency": "EUR",
+   "location": "Dublin",
+   "median": 89154,
+   "p25": 79171,
+   "p75": 100345,
+   "p90": 153548,
+   "count": null,
+   "levels": [
+    {
+     "level": "Analyst",
+     "alt": "502",
+     "total": 56487,
+     "base": 54014,
+     "stock": null,
+     "bonus": 2472,
+     "yoe": 0,
+     "count": 10
+    },
+    {
+     "level": "Associate",
+     "alt": "601",
+     "total": 78292,
+     "base": 70869,
+     "stock": null,
+     "bonus": 7423,
+     "yoe": 3,
+     "count": 14
+    },
+    {
+     "level": "Senior Associate",
+     "alt": "602",
+     "total": 96816,
+     "base": 87835,
+     "stock": null,
+     "bonus": 8981,
+     "yoe": 5,
+     "count": 13
+    },
+    {
+     "level": "Vice President",
+     "alt": "603",
+     "total": 148090,
+     "base": 128362,
+     "stock": null,
+     "bonus": 19728,
+     "yoe": 12,
+     "count": 10
+    }
+   ]
+  },
+  "fetchedAt": 1791725480834
+ },
+ "jpmorgan-chase__greater-paris-area": {
+  "status": "none",
+  "fetchedAt": 1791725482033
+ },
+ "jpmorgan-chase__singapore": {
+  "status": "ok",
+  "data": {
+   "currency": "SGD",
+   "location": "Singapore",
+   "median": 122324,
+   "p25": 106074,
+   "p75": 152059,
+   "p90": 160945,
+   "count": null,
+   "levels": [
+    {
+     "level": "Analyst",
+     "alt": "502",
+     "total": 89499,
+     "base": 84991,
+     "stock": null,
+     "bonus": 4509,
+     "yoe": 1,
+     "count": 13
+    },
+    {
+     "level": "Associate",
+     "alt": "601",
+     "total": 111789,
+     "base": 106515,
+     "stock": null,
+     "bonus": 5274,
+     "yoe": 3,
+     "count": 16
+    },
+    {
+     "level": "Senior Associate",
+     "alt": "602",
+     "total": 150533,
+     "base": 140295,
+     "stock": null,
+     "bonus": 10238,
+     "yoe": 7,
+     "count": 13
+    },
+    {
+     "level": "Vice President",
+     "alt": "603",
+     "total": 180558,
+     "base": 162810,
+     "stock": null,
+     "bonus": 17749,
+     "yoe": 10,
+     "count": 9
+    },
+    {
+     "level": "Executive Director",
+     "alt": "604",
+     "total": 388703,
+     "base": 294475,
+     "stock": 36432,
+     "bonus": 57796,
+     "yoe": 20,
+     "count": 2
+    }
+   ]
+  },
+  "fetchedAt": 1791725483539
+ },
+ "jpmorgan-chase__hong-kong-sar": {
+  "status": "ok",
+  "data": {
+   "currency": "HKD",
+   "location": "Hong Kong (SAR)",
+   "median": 850450,
+   "p25": 662226,
+   "p75": 960471,
+   "p90": 1201463,
+   "count": null,
+   "levels": [
+    {
+     "level": "Analyst",
+     "alt": "502",
+     "total": 607592,
+     "base": 576028,
+     "stock": 2626,
+     "bonus": 28930,
+     "yoe": 1,
+     "count": 29
+    },
+    {
+     "level": "Associate",
+     "alt": "601",
+     "total": 782479,
+     "base": 699391,
+     "stock": null,
+     "bonus": 83088,
+     "yoe": 3,
+     "count": 13
+    },
+    {
+     "level": "Senior Associate",
+     "alt": "602",
+     "total": 1021278,
+     "base": 877288,
+     "stock": null,
+     "bonus": 143997,
+     "yoe": 5,
+     "count": 10
+    },
+    {
+     "level": "Vice President",
+     "alt": "603",
+     "total": 1273483,
+     "base": 1245447,
+     "stock": null,
+     "bonus": 28036,
+     "yoe": 12,
+     "count": 4
+    }
+   ]
+  },
+  "fetchedAt": 1791725484418
+ },
+ "jpmorgan-chase__australia": {
+  "status": "ok",
+  "data": {
+   "currency": "AUD",
+   "location": "Australia",
+   "median": 172645,
+   "p25": 155949,
+   "p75": 183003,
+   "p90": 220271,
+   "count": null,
+   "levels": [
+    {
+     "level": "Associate",
+     "alt": "601",
+     "total": 134967,
+     "base": 126202,
+     "stock": null,
+     "bonus": 8764,
+     "yoe": 2,
+     "count": 2
+    },
+    {
+     "level": "Senior Associate",
+     "alt": "602",
+     "total": 169717,
+     "base": 145767,
+     "stock": null,
+     "bonus": 23950,
+     "yoe": 6,
+     "count": 5
+    },
+    {
+     "level": "Vice President",
+     "alt": "603",
+     "total": 216829,
+     "base": 186509,
+     "stock": 13916,
+     "bonus": 16403,
+     "yoe": 10,
+     "count": 2
+    }
+   ]
+  },
+  "fetchedAt": 1791725486081
+ },
+ "jpmorgan-chase__greater-zurich-area": {
+  "status": "none",
+  "fetchedAt": 1791725487261
+ },
+ "jpmorgan-chase__greater-amsterdam-area": {
+  "status": "none",
+  "fetchedAt": 1791725488495
+ }
+}

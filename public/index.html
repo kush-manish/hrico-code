@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuantFlash</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style id="critical-fallback">
+/* Layout-critical rules, inline so a failed or stale stylesheet degrades to
+   one readable view rather than rendering every tab stacked on top of each
+   other. Duplicated from style.css on purpose; keep them in sync. */
+#layout.hidden, #bvLayout.hidden, #rsLayout.hidden, #hsLayout.hidden,
+#stLayout.hidden, .bv-stage.hidden, .hidden[id$="Layout"] { display: none !important; }
+html, body { margin: 0; font-family: Roboto, "Helvetica Neue", Arial, sans-serif; }
+</style>
+<link rel="stylesheet" href="v/__ASSETV__/style.css">
+<link rel="stylesheet" href="v/__ASSETV__/qf.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script>/* Applied before first paint so the chosen skin and mode never flash. */
+(function () {
+  var d = document.documentElement;
+  d.setAttribute('data-theme', localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+  d.setAttribute('data-skin', localStorage.getItem('skin') || 'qf');
+  var z = parseInt(localStorage.getItem('uiZoom') || '100', 10);
+  if (z >= 70 && z <= 160 && z !== 100) d.style.setProperty('--ui-zoom', z / 100);
+})();</script>
+</head>
+<body>
+<header id="bar">
+  <!-- Row 1: identity, primary navigation, session clock, appearance. -->
+  <div class="bar-row bar-top">
+    <button id="menuBtn" class="burger" aria-label="Menu" aria-expanded="false">&#9776;</button>
+    <span class="brand"><span class="brand-mark" aria-hidden="true">G</span>Interview</span>
+    <label class="field field-compact track-sel" title="Which kind of interview you are preparing for">
+      <span>Track</span>
+      <select id="trackSel" aria-label="Interview track">
+        <option value="maang">MAANG</option>
+        <option value="hft">HFT</option>
+      </select>
+    </label>
+    <nav class="modeSwitch" role="tablist" aria-label="Sections">
+      <button id="modeHome" class="mode t-maang" role="tab" aria-selected="false">Home</button>
+      <button id="modeLearn" class="mode sep t-maang" role="tab" aria-selected="false">Learn</button>
+      <button id="modeProLearn" class="mode t-maang" role="tab" aria-selected="false">Pro-Learn</button>
+      <button id="modeSmart" class="mode t-maang" role="tab" aria-selected="false" title="Map question topics to Learn, Pro-Learn and practice questions">SMART</button>
+      <button id="modeToolkit" class="mode t-maang" role="tab" aria-selected="false">Toolkit</button>
+      <button id="modeRealq" class="mode t-maang" role="tab" aria-selected="false" title="Questions Google actually asked, from interview reports">REALQ</button>
+      <button id="modeNeetcode" class="mode t-maang" role="tab" aria-selected="false" title="The NeetCode 150 and Blind 75 by pattern, plus NeetCode's Easy, Medium and Hard YouTube playlists">NeetCode</button>
+      <button id="modeGoogle" class="mode t-maang" role="tab" aria-selected="false" title="LeetCode's Google list (last 30 days / 3 months), grouped by topic with frequency">Google</button>
+      <button id="modeCoding" class="mode sep active t-maang" role="tab" aria-selected="true">Coding</button>
+      <button id="modeBehavioural" class="mode t-maang" role="tab" aria-selected="false">Behavioural</button>
+      <button id="modeTalk" class="mode t-maang" role="tab" aria-selected="false">Talk</button>
+      <button id="modeWatch" class="mode t-maang" role="tab" aria-selected="false">Watch</button>
+      <button id="modeHftHub" class="mode t-hft" role="tab" aria-selected="false" title="Trading firms by country and city, with levels.fyi pay and each firm's interview loop">Hub</button>
+      <button id="modeHftTopics" class="mode t-hft" role="tab" aria-selected="false" title="What to study for trading-firm SWE loops, with matching coding questions">Topics</button>
+      <button id="modeHftCoach" class="mode t-hft" role="tab" aria-selected="false" title="AI coach: firm fit, concept explanations, mock questions and offer advice">AI Coach</button>
+      <button id="modeHftPrep" class="mode sep t-hft" role="tab" aria-selected="false" title="Optiver Zap-N games and 80-in-8 math: what each round is and the trick to crack it">Prep</button>
+      <button id="modeHftPractice" class="mode t-hft" role="tab" aria-selected="false" title="Timed replicas of the 80 in 8, Number Logic and every Zap-N game">Practice</button>
+      <button id="modeResume" class="mode sep t-maang" role="tab" aria-selected="false">Resume</button>
+      <button id="modeHistory" class="mode sep" role="tab" aria-selected="false">History</button>
+      <button id="modeSettings" class="mode sep" role="tab" aria-selected="false">Settings</button>
+    </nav>
+    <span class="spacer"></span>
+    <span id="timer" class="timer" title="Session clock">45:00</span>
+    <div class="bar-group bar-appearance" role="group" aria-label="Appearance">
+      <label class="field field-compact" title="Appearance">
+        <span>Look</span>
+        <select id="skinSel">
+          <option value="classic">Classic</option>
+          <option value="glass">Glass</option>
+          <option value="liquid">Liquid Glass</option>
+          <option value="midnight">Midnight</option>
+          <option value="nord">Nord</option>
+          <option value="paper">Paper</option>
+        </select>
+      </label>
+      <button id="themeBtn" class="ghost icon-btn" title="Toggle dark/light mode" aria-label="Toggle dark or light mode">&#9790;</button>
+    </div>
+    <button id="focusBtn" class="ghost icon-btn" title="Focus mode (Esc to exit)" aria-label="Focus mode" aria-pressed="false">&#9974;</button>
+  </div>
+
+  <!-- Row 2: the coding toolbar. Three groups, left to right: what you are
+       solving, how you are solving it, and what to do about it. -->
+  <div class="bar-row bar-tools coding-only">
+    <div class="bar-group" role="group" aria-label="Question">
+      <label class="field field-compact" title="Question list">
+        <span>List</span>
+        <select id="listSel"></select>
+      </label>
+      <div class="field field-grow q-nav" title="Question">
+        <button class="nav-arrow" id="qPrev" type="button" title="Previous question (Alt+←)" aria-label="Previous question">&#8249;</button>
+        <select id="qSel" aria-label="Question"></select>
+        <button class="nav-arrow" id="qNext" type="button" title="Next question (Alt+→)" aria-label="Next question">&#8250;</button>
+      </div>
+      <div class="q-search" id="qSearchWrap">
+        <input id="qSearch" type="search" autocomplete="off" spellcheck="false" placeholder="Search # or name (e.g. 77)" aria-label="Search any LeetCode problem by number or name" aria-controls="qSearchList" aria-expanded="false">
+        <div id="qSearchList" class="q-search-list" role="listbox" hidden></div>
+      </div>
+      <button class="ghost icon-btn" id="randomBtn" title="Random question">&#127922;</button>
+    </div>
+
+    <span class="spacer"></span>
+
+    <div class="bar-group bar-actions" role="group" aria-label="Judge">
+      <button id="runBtn" class="run" title="Run on the sample cases (Ctrl+Enter)">&#9655; Run</button>
+      <button class="primary submit" id="submitBtn" title="Submit to the full judge (Ctrl+Shift+Enter)">&#8593; Submit</button>
+    </div>
+
+    <span class="spacer"></span>
+
+    <div class="bar-group bar-views" role="group" aria-label="Panels">
+      <button class="ghost" id="panelBtn" title="Open the AI interviewer panel">&#128172; Interviewer</button>
+      <button class="ghost" id="solutionBtn" title="AI solution breakdown and interview briefing">&#10024; Solution</button>
+    </div>
+
+    <div class="bar-group bar-session" role="group" aria-label="Session">
+      <button id="startBtn" class="start" title="Start a timed mock interview with the AI interviewer">&#9654; Start</button>
+      <button id="stopBtn" class="stop" disabled title="End the interview and get the write-up">&#9632; Stop</button>
+    </div>
+  </div>
+</header>
+
+<div id="codeScore" class="ask-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="csTitle">
+  <div class="ask-box cs-box">
+    <h2 id="csTitle">Interview write-up</h2>
+    <div id="codeScoreBox"></div>
+    <div class="bv-setup-row cs-actions">
+      <button id="csClose" class="primary">Close</button>
+      <button id="csHistory" class="ghost">Open history</button>
+    </div>
+  </div>
+</div>
+
+<div id="modeAsk" class="ask-backdrop hidden" role="dialog" aria-modal="true"
+     aria-labelledby="askTitle">
+  <div class="ask-box">
+    <h2 id="askTitle">How do you want to do this interview?</h2>
+    <p class="ask-sub">You can change it later from Settings.</p>
+    <div class="ask-options">
+      <button class="ask-opt" data-choice="text">
+        <span class="ask-icon">&#9000;</span>
+        <span class="ask-label">Text</span>
+        <span class="ask-desc">Type your answers. The interviewer stays on screen.</span>
+      </button>
+      <button class="ask-opt" data-choice="voice">
+        <span class="ask-icon">&#127908;</span>
+        <span class="ask-label">Voice</span>
+        <span class="ask-desc">Speak your answers and hear the interviewer, like a real call.</span>
+      </button>
+      <button class="ask-opt" data-choice="listen">
+        <span class="ask-icon">&#128264;</span>
+        <span class="ask-label">Listen only</span>
+        <span class="ask-desc">Hear the interviewer, type your replies.</span>
+      </button>
+    </div>
+    <p id="askNote" class="ask-note hidden"></p>
+  </div>
+</div>
+
+<main id="layout">
+  <section id="promptPane">
+    <div class="q-tabs" role="tablist" aria-label="Question panel">
+      <button class="q-tab sel" data-qtab="description" role="tab" aria-selected="true">Description</button>
+      <button class="q-tab" data-qtab="hints" role="tab" aria-selected="false">Hints</button>
+      <button class="q-tab" data-qtab="animate" role="tab" aria-selected="false" title="Watch the solution run, step by step">Animate</button>
+      <button class="q-tab" data-qtab="short" role="tab" aria-selected="false" title="The 2-minute video lesson for this problem">Short</button>
+      <button class="q-tab" data-qtab="submissions" role="tab" aria-selected="false">Submissions</button>
+      <button class="q-tab" data-qtab="notes" role="tab" aria-selected="false" title="Your own one-line trick and review mark">Notes</button>
+      <span class="spacer"></span>
+      <button class="ghost icon-btn q-collapse" id="promptBtn" title="Collapse the question (toggle with the question button)" aria-label="Collapse question">&#8676;</button>
+    </div>
+    <div id="qTabDescription" class="q-pane sel">
+      <div class="q-head">
+        <h1 id="qTitle">Select a question</h1>
+        <select id="qStatus" class="q-status todo" title="Progress on this question" aria-label="Progress">
+          <option value="todo">&#9675; To do</option>
+          <option value="attempted">&#10034; Attempted</option>
+          <option value="solved">&#10003; Solved</option>
+        </select>
+      </div>
+      <div id="qMeta" class="meta"></div>
+      <div id="qBody" class="prose"></div>
+      <div id="qSimilar" class="q-similar"></div>
+    </div>
+    <div id="qTabHints" class="q-pane"><div id="qHints"></div></div>
+    <div id="qTabSubmissions" class="q-pane"><div id="qSubs"></div></div>
+    <div id="qTabAnimate" class="q-pane"><div id="qAnim" class="prose"></div></div>
+    <div id="qTabShort" class="q-pane"><div id="qShort"></div></div>
+    <div id="qTabNotes" class="q-pane"><div id="qNotes"></div></div>
+  </section>
+
+  <div id="vsplit" class="splitter"></div>
+
+  <section id="editorPane">
+    <div id="editorHead">
+      <button class="ghost icon-btn q-expand hidden" id="promptShowBtn" title="Show the question" aria-label="Show question">&#8677;</button>
+      <select id="langSel" class="ed-lang" aria-label="Language">
+        <option value="python3">Python 3</option>
+        <option value="java">Java</option>
+        <option value="cpp">C++</option>
+        <option value="javascript">JavaScript</option>
+        <option value="golang">Go</option>
+      </select>
+      <span class="ed-hint" id="edHint"></span>
+      <span class="spacer"></span>
+      <label class="field field-compact ed-persona" title="Interviewer style for the mock interview">
+        <span>Interviewer</span>
+        <select id="personaSel"></select>
+      </label>
+      <button class="ghost icon-btn" id="plainBtn" title="Plain-text mode: the statement as comments above the code" aria-pressed="false">&#182;</button>
+      <button class="ghost icon-btn" id="resetTemplateBtn" title="Reset to the code template">&#8635;</button>
+      <button class="ghost icon-btn" id="edFullBtn" title="Fullscreen editor (F)">&#9974;</button>
+    </div>
+    <div id="editorWrap">
+      <div id="gutter"></div>
+      <div id="codeArea">
+        <pre id="highlight" aria-hidden="true"><code></code></pre>
+        <textarea id="code" spellcheck="false" autocomplete="off" autocorrect="off"
+          autocapitalize="off" wrap="off" placeholder="// write your solution here"></textarea>
+      </div>
+    </div>
+
+    <div id="hsplit" class="splitter horiz"></div>
+
+    <div id="console">
+      <div id="consoleTabs">
+        <button class="tab active" data-tab="input">Test input</button>
+        <button class="tab" data-tab="result">Result</button>
+        <button class="tab" data-tab="attempts">History</button>
+        <span class="spacer"></span>
+        <span id="status" class="status"></span>
+      </div>
+      <div id="tab-input" class="tabpane active">
+        <textarea id="testInput" spellcheck="false" wrap="off"></textarea>
+      </div>
+      <div id="tab-result" class="tabpane"><div id="result" class="result-empty">No runs yet.</div></div>
+      <div id="tab-attempts" class="tabpane"><div id="attList" class="att-list"></div></div>
+    </div>
+  </section>
+
+  <div id="chatsplit" class="splitter side hidden"></div>
+  <section id="chatPane" class="hidden">
+    <div id="chatHead">
+      <span id="personaName">Interviewer</span>
+      <span id="personaHint" class="hint"></span>
+      <span id="chatTimer" class="chat-timer"></span>
+          <button id="chatSpeak" class="ghost voice-btn" title="Read the interviewer aloud"
+              aria-pressed="false">&#128264;</button>
+  <button id="chatClear" class="ghost" title="Clear conversation">Clear</button>
+    </div>
+    <div id="chatLog"></div>
+    <div id="chatBox">
+      <textarea id="chatInput" rows="2" placeholder="Talk to your interviewer…"></textarea>
+      <button id="chatMic" class="ghost voice-btn" title="Speak your answer" aria-label="Speak your answer">&#127908;</button>
+      <button id="chatSend" class="primary">Send</button>
+    </div>
+  </section>
+
+  <div id="solsplit" class="splitter side hidden"></div>
+  <section id="solutionPane" class="hidden">
+    <div id="solHead">
+      <div class="sol-tabs" role="tablist" aria-label="Pane">
+        <button class="sol-tab sel" id="solTabSolution" data-pane="solution" role="tab" aria-selected="true">Solution</button>
+        <button class="sol-tab" id="solTabRk" data-pane="rk" role="tab" aria-selected="false"
+          title="What to ask, what to say, and how it is scored">Required knowledge</button>
+      </div>
+      <span class="spacer"></span>
+      <button id="solGenerate" class="primary">Generate</button>
+    </div>
+    <div id="solContent" class="prose">
+      <p class="sol-placeholder">Click <strong>Generate</strong> to get a full solution breakdown with brute-force, optimal, and best approaches — including time &amp; space complexity analysis.</p>
+    </div>
+    <div id="rkContent" class="prose hidden">
+      <p class="sol-placeholder">Click <strong>Generate</strong> for the interview briefing on this
+        problem: what to ask before you code, what to say at each beat, what the interviewer is
+        scoring, and where candidates lose points. Compiled from the Pro-Learn topics that teach it.</p>
+    </div>
+  </section>
+</main>
+
+<main id="stLayout" class="hidden">
+  <section class="bv-stage">
+    <div class="bv-intro">
+      <h1>Models &amp; settings</h1>
+      <p class="bv-lede">Each job uses a different mix of speed and judgement, so they are chosen
+        separately. Conversation turns want a fast model; scoring and resume analysis want an
+        accurate one. Saved to your account.</p>
+    </div>
+    <div id="stNote" class="hs-note hidden"></div>
+    <div class="st-group" id="stPlan"></div>
+    <div class="st-group" id="stLeetcode">
+      <h3>LeetCode judge</h3>
+      <div class="st-role st-cred-status">
+        <div>
+          <div class="st-label">Credential status</div>
+          <div class="st-hint" id="lcStatus">Checking…</div>
+        </div>
+        <div class="st-pick">
+          <button id="lcValidate" class="ghost">Validate</button>
+        </div>
+      </div>
+      <form id="lcCredForm" autocomplete="off">
+        <div class="st-role">
+          <div>
+            <div class="st-label">Paste full Cookie header</div>
+            <div class="st-hint">Optional shortcut: paste the whole Chrome cookie string here, then click Extract. The page fills only the required LeetCode fields.</div>
+          </div>
+          <div class="st-cred-paste">
+            <textarea id="lcCookiePaste" class="st-secret st-cookie" spellcheck="false" autocomplete="off" placeholder="csrftoken=...; LEETCODE_SESSION=...; cf_clearance=..."></textarea>
+            <button id="lcExtract" class="ghost" type="button">Extract</button>
+          </div>
+        </div>
+        <div class="st-role">
+          <div>
+            <div class="st-label">LEETCODE_SESSION</div>
+            <div class="st-hint">In Chrome: open LeetCode, DevTools → Application → Cookies → https://leetcode.com, then copy the value.</div>
+          </div>
+          <input id="lcSession" class="st-secret" type="password" required spellcheck="false" autocomplete="off">
+        </div>
+        <div class="st-role">
+          <div>
+            <div class="st-label">LEETCODE_CSRF</div>
+            <div class="st-hint">Copy the <code>csrftoken</code> cookie value from the same cookie table.</div>
+          </div>
+          <input id="lcCsrf" class="st-secret" type="password" required spellcheck="false" autocomplete="off">
+        </div>
+        <details class="st-advanced">
+          <summary>Optional fields</summary>
+          <div class="st-role">
+            <div>
+              <div class="st-label">LEETCODE_CF_CLEARANCE</div>
+              <div class="st-hint">Only needed if LeetCode shows Cloudflare challenges.</div>
+            </div>
+            <input id="lcCf" class="st-secret" type="password" spellcheck="false" autocomplete="off">
+          </div>
+          <div class="st-role">
+            <div>
+              <div class="st-label">LEETCODE_UA</div>
+              <div class="st-hint">Optional browser User-Agent to send with judge requests.</div>
+            </div>
+            <input id="lcUa" class="st-secret" type="text" spellcheck="false" autocomplete="off">
+          </div>
+        </details>
+        <div class="st-role">
+          <div class="st-hint">Saving writes these values to the server .env, validates them immediately, and re-enables Run/Submit when valid. Values are never shown back.</div>
+          <div class="st-pick">
+            <button id="lcSave" class="primary" type="submit">Save and validate</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="stRoles"></div>
+    <div class="st-group">
+      <h3>Voice</h3>
+      <div id="stVoice"></div>
+    </div>
+
+    <div class="st-group">
+      <h3>Display</h3>
+      <div class="st-role">
+        <div>
+          <div class="st-label">Interface size</div>
+          <div class="st-hint">Scales text and controls together. Useful on a phone,
+            a very large screen, or if the default feels cramped.</div>
+        </div>
+        <div class="st-pick st-zoom">
+          <button id="zoomDown" class="ghost" aria-label="Smaller">&minus;</button>
+          <input id="zoomRange" type="range" min="70" max="160" step="5" value="100"
+                 aria-label="Interface size percentage">
+          <button id="zoomUp" class="ghost" aria-label="Larger">+</button>
+          <span id="zoomValue" class="st-timing">100%</span>
+          <button id="zoomReset" class="ghost">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="stBackup" class="st-group"></div>
+
+    <div class="bv-setup-row">
+      <button id="stReset" class="ghost">Reset to server defaults</button>
+      <button id="stBench" class="primary">Test speed of selected</button>
+    </div>
+  </section>
+</main>
+
+<main id="hmLayout" class="hidden">
+  <section class="bv-stage hm-stage"><div id="hmRoot"></div></section>
+</main>
+
+<main id="tkLayout" class="hidden">
+  <section class="bv-stage">
+    <div class="bv-intro">
+      <h1>Talk to a Googler</h1>
+      <p class="bv-lede">A live practice call. They speak, you answer out loud, they follow up — the reply
+        starts within a couple of seconds and you can cut in whenever you like. At the end you get a read
+        on how you came across: clarity, concision, structure, specificity, warmth.</p>
+    </div>
+    <div id="tkSetup" class="bv-setup-row tk-setup"></div>
+    <div id="tkStage"></div>
+  </section>
+</main>
+
+<main id="wtLayout" class="hidden">
+  <section class="bv-stage">
+    <div class="bv-intro">
+      <h1>Watch an interview</h1>
+      <p class="bv-lede">Two agents run the interview while you watch — one being interviewed,
+        one asking. The point is the communication: how a strong candidate opens, what they
+        check before writing anything, when they volunteer complexity without being asked.</p>
+    </div>
+    <div id="wtSetup" class="bv-setup-row wt-setup"></div>
+    <div id="wtWho" class="wt-cand"></div>
+    <div id="wtLog" class="wt-log"></div>
+    <div id="wtCode" class="wt-codepanel hidden"></div>
+  </section>
+</main>
+
+<main id="lnLayout" class="hidden">
+  <aside id="lnList" class="ln-sidebar"></aside>
+  <section id="lnDetail" class="ln-detail"></section>
+</main>
+
+<main id="plLayout" class="hidden">
+  <aside id="plList" class="pl-sidebar"></aside>
+  <section id="plDetail" class="pl-detail"></section>
+</main>
+
+<main id="toolLayout" class="hidden">
+  <aside id="tkList" class="pl-sidebar"></aside>
+  <section id="tkDetail" class="pl-detail"></section>
+</main>
+
+<main id="rqLayout" class="hidden">
+  <aside id="rqList" class="pl-sidebar"></aside>
+  <section id="rqDetail" class="pl-detail"></section>
+</main>
+
+<main id="smLayout" class="hidden">
+  <aside id="smList" class="pl-sidebar"></aside>
+  <section id="smDetail" class="pl-detail"></section>
+</main>
+
+<main id="ncLayout" class="hidden">
+  <aside id="ncList" class="pl-sidebar"></aside>
+  <section id="ncDetail" class="pl-detail"></section>
+</main>
+
+<main id="ggLayout" class="hidden">
+  <aside id="ggList" class="pl-sidebar"></aside>
+  <section id="ggDetail" class="pl-detail"></section>
+</main>
+
+<main id="hftLayout" class="hidden">
+  <aside id="hftList" class="pl-sidebar"></aside>
+  <section id="hftDetail" class="pl-detail"></section>
+</main>
+
+<main id="hubLayout" class="hidden">
+  <section id="hubView" class="hub-view"></section>
+</main>
+
+<main id="hsLayout" class="hidden">
+  <section class="bv-stage">
+    <div class="bv-intro">
+      <h1>Interview history</h1>
+      <p class="bv-lede">Every coding and behavioural session you have finished on this device.
+        Saved to your account and synced across your devices.</p>
+    </div>
+
+    <div id="hsStats" class="hs-stats"></div>
+
+    <div class="rs-toolbar">
+      <div class="rs-filters">
+        <button class="hs-filter active" data-type="all">All</button>
+        <button class="hs-filter" data-type="coding">Coding</button>
+        <button class="hs-filter" data-type="behavioural">Behavioural</button>
+        <button class="hs-filter" data-type="star">Today · STAR</button>
+      </div>
+      <div class="rs-toolbar-right">
+        <button id="hsImport" class="ghost">Import</button>
+        <input type="file" id="hsFile" accept=".json,application/json" hidden>
+        <button id="hsExport" class="ghost">Export JSON</button>
+      </div>
+    </div>
+
+    <p id="hsNote" class="hs-note hidden"></p>
+    <div id="hsList"></div>
+  </section>
+</main>
+
+<main id="rsLayout" class="hidden">
+  <section id="rsUpload" class="bv-stage">
+    <div class="bv-intro">
+      <h1>Resume questions</h1>
+      <p class="bv-lede">Upload your resume and get the questions an interviewer would actually
+        ask about it &mdash; role by role, project by project, plus the uncomfortable ones about
+        gaps and unquantified claims.</p>
+    </div>
+
+    <label id="rsDrop" class="rs-drop" for="rsFile">
+      <input type="file" id="rsFile" accept=".pdf,.docx,.txt,.md" hidden>
+      <div class="rs-drop-icon">&#8679;</div>
+      <div class="rs-drop-main">Drop your resume here, or <span class="rs-link">choose a file</span></div>
+      <div class="rs-drop-sub">PDF, DOCX, TXT or MD &middot; up to 2&nbsp;MB</div>
+    </label>
+
+    <p class="rs-privacy"><strong>Your file is not stored.</strong> It is read in memory to extract
+      the text, sent once to the model to generate questions and a short candidate profile, then
+      discarded. Nothing is written to disk and no resume content is logged. The profile is kept in
+      your account (synced across your devices), and goes along with interview requests while it is switched on.</p>
+    <div id="rsProfileOnFile"></div>
+
+    <div id="rsStatus" class="rs-status hidden"></div>
+  </section>
+
+  <section id="rsResults" class="bv-stage hidden">
+    <div id="rsSummary"></div>
+    <div class="rs-toolbar">
+      <div class="rs-filters">
+        <button class="rs-filter active" data-type="all">All</button>
+        <button class="rs-filter" data-type="technical">Technical</button>
+        <button class="rs-filter" data-type="behavioural">Behavioural</button>
+        <button class="rs-filter" data-type="probing">Probing</button>
+      </div>
+      <div class="rs-toolbar-right">
+        <button id="rsCopy" class="ghost">Copy all</button>
+        <button id="rsNew" class="ghost">New resume</button>
+      </div>
+    </div>
+    <div id="rsSections"></div>
+  </section>
+</main>
+
+<main id="bvLayout" class="hidden">
+  <!-- Setup -->
+  <section id="bvSetup" class="bv-stage">
+    <div class="bv-intro">
+      <h1>Behavioural interview</h1>
+      <p class="bv-lede">A one-to-one interview with an AI interviewer. Pick an area, answer in
+        your own words, and get a scored write-up against six dimensions when you finish.</p>
+    </div>
+    <div id="bvCats" class="bv-cats"></div>
+    <div class="bv-setup-row">
+      <label><input type="checkbox" id="bvSurprise"> Surprise me &mdash; pick any area</label>
+      <span class="spacer"></span>
+      <button id="bvBankBtn" class="ghost">All questions &amp; my best answers</button>
+    </div>
+    <div id="bvBank" class="bk" hidden></div>
+    <div class="bv-setup-row">
+      <label for="bvLen">Length</label>
+      <select id="bvLen">
+        <option value="15">15 minutes</option>
+        <option value="25" selected>25 minutes</option>
+        <option value="40">40 minutes</option>
+        <option value="45">45 minutes (real round)</option>
+      </select>
+      <button id="bvStart" class="primary" disabled>Start interview</button>
+    </div>
+  </section>
+
+  <!-- Live interview -->
+  <section id="bvInterview" class="bv-stage hidden">
+    <div class="bv-qbar">
+      <div>
+        <div class="bv-qlabel" id="bvCatLabel"></div>
+        <div class="bv-question" id="bvQuestion"></div>
+      </div>
+      <div class="bv-qactions">
+        <span id="bvTimer" class="timer">25:00</span>
+        <button id="bvSpeak" class="ghost voice-btn" title="Read the interviewer aloud"
+                aria-pressed="false">&#128264;</button>
+        <button id="bvEnd" class="primary">End &amp; score</button>
+      </div>
+    </div>
+    <div id="bvLog" class="bv-log" aria-live="polite"></div>
+    <div class="bv-compose">
+      <textarea id="bvInput" rows="3" placeholder="Answer out loud in your head, then type the substance here. Ctrl/Cmd+Enter to send."></textarea>
+      <button id="bvMic" class="ghost voice-btn" title="Answer by voice" aria-label="Answer by voice">&#127908;</button>
+      <button id="bvSend" class="primary">Send</button>
+    </div>
+    <p class="bv-hint" id="bvHint">Tip: structure with <strong>STAR</strong> — Situation, Task, Action, Result.
+      Be specific about what <em>you</em> did, and quantify the result.</p>
+  </section>
+
+  <!-- Scorecard -->
+  <section id="bvScore" class="bv-stage hidden">
+    <div id="bvScoreBody"></div>
+    <div class="bv-setup-row">
+      <button id="bvAgain" class="primary">New interview</button>
+      <button id="bvReview" class="ghost">Review transcript</button>
+    </div>
+    <div id="bvTranscript" class="bv-log hidden"></div>
+  </section>
+</main>
+
+<script src="v/__ASSETV__/qf-shell.js"></script>
+<script src="v/__ASSETV__/qf-design.js"></script>
+<script src="v/__ASSETV__/focus.js"></script>
+<script src="v/__ASSETV__/plan-gate.js"></script>
+<script src="v/__ASSETV__/settings.js"></script>
+<script src="v/__ASSETV__/dictation.js"></script>
+<script src="v/__ASSETV__/voice.js"></script>
+<script src="v/__ASSETV__/toolkit.js"></script>
+<script src="v/__ASSETV__/visuals.js"></script>
+<script src="v/__ASSETV__/animate.js"></script>
+<script src="v/__ASSETV__/google.js"></script>
+<script src="v/__ASSETV__/learn.js"></script>
+<script src="v/__ASSETV__/prolearn.js"></script>
+<script src="v/__ASSETV__/smart.js"></script>
+<script src="v/__ASSETV__/neetcode.js"></script>
+<script src="v/__ASSETV__/gtab.js"></script>
+<script src="v/__ASSETV__/realq.js"></script>
+<script src="v/__ASSETV__/watch.js"></script>
+<script src="v/__ASSETV__/talk.js"></script>
+<script src="v/__ASSETV__/home.js"></script>
+<script src="v/__ASSETV__/hft.js"></script>
+<script src="v/__ASSETV__/hft-hub.js"></script>
+<script src="v/__ASSETV__/bank.js"></script>
+<script src="v/__ASSETV__/history.js"></script>
+<script src="v/__ASSETV__/attempts.js"></script>
+<script src="v/__ASSETV__/testcases.js"></script>
+<script src="v/__ASSETV__/editor.js"></script>
+<script src="v/__ASSETV__/debugger.js"></script>
+<script src="v/__ASSETV__/js-runner.js"></script>
+<script src="v/__ASSETV__/py-runner.js"></script>
+<script src="v/__ASSETV__/app.js"></script>
+<script src="v/__ASSETV__/chat.js"></script>
+<script src="v/__ASSETV__/behavioural.js"></script>
+<script src="v/__ASSETV__/profile.js"></script>
+<script src="v/__ASSETV__/resume.js"></script>
+<script src="v/__ASSETV__/qf-anim.js"></script>
+<script src="v/__ASSETV__/qf-sprint.js"></script>
+<script src="v/__ASSETV__/qf-trace.js"></script>
+<script src="v/__ASSETV__/qf-stories.js"></script>
+<script src="v/__ASSETV__/qf-plan.js"></script>
+<script src="v/__ASSETV__/qf-fix.js"></script>
+<script src="v/__ASSETV__/qf-discuss.js"></script>
+<script src="v/__ASSETV__/qf-watchlib.js"></script>
+<script src="v/__ASSETV__/qf-coding.js"></script>
+<script src="v/__ASSETV__/qf-approach.js"></script>
+<script src="v/__ASSETV__/qf-buddy.js"></script>
+<script src="v/__ASSETV__/qf-shorts.js"></script>
+</body>
+</html>

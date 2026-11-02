@@ -1,0 +1,3650 @@
+{
+ "stats": {
+  "title": "Patterns",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "roadmap": {
+  "title": "Roadmap",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "interview-process": {
+  "title": "Interview Process",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "getting_started": {
+  "title": "How to Study",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "interview-psychology": {
+  "title": "The Mindset",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "math-basics": {
+  "title": "Math Basics",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "runtime_summary": {
+  "title": "Runtime to Algo Cheat Sheet",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "keyword_to_algo": {
+  "title": "Keyword to Algo Cheat Sheet",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "basic_dsa": {
+  "title": "Basic Data Structures and Algorithms",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "stack_intro": {
+  "title": "Stack Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "queue_intro": {
+  "title": "Queue Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "hashmap_intro": {
+  "title": "Hashmap Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "data_structures_by_language": {
+  "title": "Data Structures by Language",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "sorting_intro": {
+  "title": "Intro to Sorting",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "advanced_sorting": {
+  "title": "Advanced Sorting Algorithms - Merge Sort | Quick Sort",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "sorting_summary": {
+  "title": "Sorting Summary",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "custom_comparator_sort": {
+  "title": "Built-in Sort with Custom Comparator",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "simulation_intro": {
+  "title": "Simulation Coding Problems: Introduction and Strategies",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "spiral_matrix": {
+  "title": "Spiral Matrix",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "spiral-matrix",
+   "id": "54",
+   "title": "Spiral Matrix",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "rotate_image": {
+  "title": "Rotate Image (Matrix Rotation In Place)",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "rotate-image",
+   "id": "48",
+   "title": "Rotate Image",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "game_of_life": {
+  "title": "Game of Life (In-Place State Encoding)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "game-of-life",
+   "id": "289",
+   "title": "Game of Life",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "complexity_analysis": {
+  "title": "Big-O and Complexity Analysis (Amortised, Recursion, Space)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "google_coding_rubric": {
+  "title": "How Google Scores the Coding Round",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "testing_your_code": {
+  "title": "Testing Your Code: Edge Cases and Dry Runs",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "clarifying_questions": {
+  "title": "Clarifying Questions and Stating Assumptions",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "follow_up_optimisation": {
+  "title": "Handling Follow-ups: Scale, Streams and Memory Limits",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "hashing_patterns": {
+  "title": "Hash Map and Set Patterns",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "two_sum": {
+  "title": "Two Sum (Complement Lookup)",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "two-sum",
+   "id": "1",
+   "title": "Two Sum",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "group_anagrams": {
+  "title": "Group Anagrams (Canonical Keys)",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "group-anagrams",
+   "id": "49",
+   "title": "Group Anagrams",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "top_k_frequent": {
+  "title": "Top K Frequent Elements (Bucket Sort)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "top-k-frequent-elements",
+   "id": "347",
+   "title": "Top K Frequent Elements",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "longest_consecutive_sequence": {
+  "title": "Longest Consecutive Sequence",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "longest-consecutive-sequence",
+   "id": "128",
+   "title": "Longest Consecutive Sequence",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "subarray_sum_divisible_k": {
+  "title": "Prefix Sum + Hash Map: Subarray Sums Divisible by K",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "contiguous_array": {
+  "title": "Contiguous Array (Balance Trick)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "contiguous-array",
+   "id": "525",
+   "title": "Contiguous Array",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "kadane": {
+  "title": "Kadane's Algorithm (Maximum Subarray)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "dutch_national_flag": {
+  "title": "Dutch National Flag (Sort Colors)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "cyclic_sort": {
+  "title": "Cyclic Sort (Missing / Duplicate Number)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "first_missing_positive": {
+  "title": "First Missing Positive",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "first-missing-positive",
+   "id": "41",
+   "title": "First Missing Positive",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "boyer_moore_majority": {
+  "title": "Boyer-Moore Majority Vote",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "next_permutation": {
+  "title": "Next Permutation",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "next-permutation",
+   "id": "31",
+   "title": "Next Permutation",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "difference_array": {
+  "title": "Difference Array (Range Updates)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "prefix_sum_2d": {
+  "title": "2D Prefix Sum (Range Sum Query 2D)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "fisher_yates": {
+  "title": "Fisher-Yates Shuffle",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "reservoir_sampling": {
+  "title": "Reservoir Sampling",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "random_pick_with_weight": {
+  "title": "Random Pick with Weight",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "random-pick-with-weight",
+   "id": "528",
+   "title": "Random Pick with Weight",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "insert_delete_getrandom": {
+  "title": "Insert Delete GetRandom O(1)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "insert-delete-getrandom-o1",
+   "id": "380",
+   "title": "Insert Delete GetRandom O(1)",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "string_basics": {
+  "title": "String Manipulation Essentials",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "palindrome_expand_center": {
+  "title": "Longest Palindromic Substring (Expand Around Centre)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "longest-palindromic-substring",
+   "id": "5",
+   "title": "Longest Palindromic Substring",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "string_compression": {
+  "title": "String Compression and Run-Length Encoding",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "encode_decode_strings": {
+  "title": "Encode and Decode Strings",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "encode-and-decode-strings",
+   "id": "271",
+   "title": "Encode and Decode Strings",
+   "difficulty": "Medium",
+   "paid": true
+  }
+ },
+ "kmp": {
+  "title": "KMP Algorithm (Prefix Function)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "rabin_karp": {
+  "title": "Rabin-Karp and Rolling Hash",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "z_algorithm": {
+  "title": "Z-Algorithm",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "manacher": {
+  "title": "Manacher's Algorithm",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "repeated_dna_sequences": {
+  "title": "Repeated DNA Sequences",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "repeated-dna-sequences",
+   "id": "187",
+   "title": "Repeated DNA Sequences",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "longest_duplicate_substring": {
+  "title": "Longest Duplicate Substring (Binary Search + Hash)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "longest-duplicate-substring",
+   "id": "1044",
+   "title": "Longest Duplicate Substring",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "linked_list_intro": {
+  "title": "Linked List Intro and Dummy Nodes",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "reverse_linked_list": {
+  "title": "Reverse a Linked List (Iterative and Recursive)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "reverse_nodes_k_group": {
+  "title": "Reverse Nodes in k-Group",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "reverse-nodes-in-k-group",
+   "id": "25",
+   "title": "Reverse Nodes in k-Group",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "merge_two_sorted_lists": {
+  "title": "Merge Two Sorted Lists",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "merge-two-sorted-lists",
+   "id": "21",
+   "title": "Merge Two Sorted Lists",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "reorder_list": {
+  "title": "Reorder List",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "reorder-list",
+   "id": "143",
+   "title": "Reorder List",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "add_two_numbers": {
+  "title": "Add Two Numbers",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "add-two-numbers",
+   "id": "2",
+   "title": "Add Two Numbers",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "copy_list_random_pointer": {
+  "title": "Copy List with Random Pointer",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "copy-list-with-random-pointer",
+   "id": "138",
+   "title": "Copy List with Random Pointer",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "linked_list_cycle_ii": {
+  "title": "Linked List Cycle II (Find the Entry)",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "linked-list-cycle-ii",
+   "id": "142",
+   "title": "Linked List Cycle II",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "intersection_of_lists": {
+  "title": "Intersection of Two Linked Lists",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "intersection-of-two-linked-lists",
+   "id": "160",
+   "title": "Intersection of Two Linked Lists",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "sort_list": {
+  "title": "Sort List (Merge Sort on a List)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "sort-list",
+   "id": "148",
+   "title": "Sort List",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "min_stack": {
+  "title": "Min Stack",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "min-stack",
+   "id": "155",
+   "title": "Min Stack",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "valid_parentheses": {
+  "title": "Valid Parentheses",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "valid-parentheses",
+   "id": "20",
+   "title": "Valid Parentheses",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "evaluate_rpn": {
+  "title": "Evaluate Reverse Polish Notation",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "evaluate-reverse-polish-notation",
+   "id": "150",
+   "title": "Evaluate Reverse Polish Notation",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "decode_string": {
+  "title": "Decode String",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "decode-string",
+   "id": "394",
+   "title": "Decode String",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "asteroid_collision": {
+  "title": "Asteroid Collision",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "asteroid-collision",
+   "id": "735",
+   "title": "Asteroid Collision",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "simplify_path": {
+  "title": "Simplify Path",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "simplify-path",
+   "id": "71",
+   "title": "Simplify Path",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "basic_calculator": {
+  "title": "Basic Calculator",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "basic-calculator",
+   "id": "224",
+   "title": "Basic Calculator",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "basic_calculator_ii": {
+  "title": "Basic Calculator II",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "basic-calculator-ii",
+   "id": "227",
+   "title": "Basic Calculator II",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "mono_stack_intro": {
+  "title": "Monotonic Stack Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "next_greater_element_i": {
+  "title": "Next Greater Element I",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "next-greater-element-i",
+   "id": "496",
+   "title": "Next Greater Element I",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "daily_temperatures": {
+  "title": "Daily Temperatures",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "daily-temperatures",
+   "id": "739",
+   "title": "Daily Temperatures",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "next_greater_element_ii": {
+  "title": "Next Greater Element II",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "next-greater-element-ii",
+   "id": "503",
+   "title": "Next Greater Element II",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "online_stock_span": {
+  "title": "Online Stock Span",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "online-stock-span",
+   "id": "901",
+   "title": "Online Stock Span",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "remove_k_digits": {
+  "title": "Remove K Digits",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "remove-k-digits",
+   "id": "402",
+   "title": "Remove K Digits",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "remove_duplicate_letters": {
+  "title": "Remove Duplicate Letters (Smallest Subsequence)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "remove-duplicate-letters",
+   "id": "316",
+   "title": "Remove Duplicate Letters",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "trapping_rain_water": {
+  "title": "Trapping Rain Water",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "trapping-rain-water",
+   "id": "42",
+   "title": "Trapping Rain Water",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "sum_of_subarray_minimums": {
+  "title": "Sum of Subarray Minimums (Contribution Technique)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "sum-of-subarray-minimums",
+   "id": "907",
+   "title": "Sum of Subarray Minimums",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "largest_rectangle_in_histogram": {
+  "title": "Largest Rectangle in Histogram",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "largest-rectangle-in-histogram",
+   "id": "84",
+   "title": "Largest Rectangle in Histogram",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "maximal_rectangle": {
+  "title": "Maximal Rectangle",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "maximal-rectangle",
+   "id": "85",
+   "title": "Maximal Rectangle",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "pattern_132": {
+  "title": "132 Pattern",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "132-pattern",
+   "id": "456",
+   "title": "132 Pattern",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "car_fleet": {
+  "title": "Car Fleet",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "car-fleet",
+   "id": "853",
+   "title": "Car Fleet",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "mono_queue_intro": {
+  "title": "Monotonic Queue (Deque) Intro",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "sliding_window_maximum": {
+  "title": "Sliding Window Maximum",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "sliding-window-maximum",
+   "id": "239",
+   "title": "Sliding Window Maximum",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "shortest_subarray_sum_at_least_k": {
+  "title": "Shortest Subarray with Sum at Least K",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "shortest-subarray-with-sum-at-least-k",
+   "id": "862",
+   "title": "Shortest Subarray with Sum at Least K",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "constrained_subsequence_sum": {
+  "title": "Constrained Subsequence Sum (DP + Deque)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "constrained-subsequence-sum",
+   "id": "1425",
+   "title": "Constrained Subsequence Sum",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "longest_subarray_abs_diff_limit": {
+  "title": "Longest Subarray with Absolute Diff ≤ Limit",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "binary_search_intro": {
+  "title": "Binary Search Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "binary_search_boundary": {
+  "title": "First True",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "binary-search-monotonic": {
+  "title": "Monotonic Function",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "binary_search_first_element_not_smaller_than_target": {
+  "title": "First Element Not Smaller Than Target",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "binary_search_duplicates": {
+  "title": "First Occurrence",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "sqrt": {
+  "title": "Square Root Estimation",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "min_in_rotated_sorted_array": {
+  "title": "Minimum in Rotated Sorted Array",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "peak_of_mountain_array": {
+  "title": "Peak of Mountain Array",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "newspapers_split": {
+  "title": "Newspapers",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "binary_search_on_answer": {
+  "title": "Binary Search on the Answer",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "koko_eating_bananas": {
+  "title": "Koko Eating Bananas",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "koko-eating-bananas",
+   "id": "875",
+   "title": "Koko Eating Bananas",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "capacity_to_ship_packages": {
+  "title": "Capacity To Ship Packages Within D Days",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "capacity-to-ship-packages-within-d-days",
+   "id": "1011",
+   "title": "Capacity To Ship Packages Within D Days",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "search_in_rotated_sorted_array": {
+  "title": "Search in Rotated Sorted Array",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "search-in-rotated-sorted-array",
+   "id": "33",
+   "title": "Search in Rotated Sorted Array",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "median_of_two_sorted_arrays": {
+  "title": "Median of Two Sorted Arrays",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "median-of-two-sorted-arrays",
+   "id": "4",
+   "title": "Median of Two Sorted Arrays",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "kth_smallest_pair_distance": {
+  "title": "Find K-th Smallest Pair Distance",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "find-k-th-smallest-pair-distance",
+   "id": "719",
+   "title": "Find K-th Smallest Pair Distance",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "search_2d_matrix": {
+  "title": "Search a 2D Matrix",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "search-a-2d-matrix",
+   "id": "74",
+   "title": "Search a 2D Matrix",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "binary_search_real_numbers": {
+  "title": "Binary Search on Real Numbers (Precision)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "binary-search-speedrun": {
+  "title": "Binary Search Speedrun",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "two_pointers_intro": {
+  "title": "Two Pointers Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "two_pointers_invariants": {
+  "title": "Understanding Invariants",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "common_invariant_shapes": {
+  "title": "Common Invariant Shapes",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "same_direction_family_map": {
+  "title": "Same Direction Family Map",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "remove_duplicates": {
+  "title": "Remove Duplicates",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "middle_of_linked_list": {
+  "title": "Middle of a Linked List",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "move_zeros": {
+  "title": "Move Zeros",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "remove_nth_from_end": {
+  "title": "Remove N-th Node from End of Linked List",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "opposite_direction_family_map": {
+  "title": "Opposite Direction Family Map",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "two_sum_sorted": {
+  "title": "Two Sum Sorted",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "valid_palindrome": {
+  "title": "Valid Palindrome",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "valid-palindrome",
+   "id": "125",
+   "title": "Valid Palindrome",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "container_with_most_water": {
+  "title": "Container With Most Water",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "container-with-most-water",
+   "id": "11",
+   "title": "Container With Most Water",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "sliding_window_family_map": {
+  "title": "Sliding Window Family Map",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "subarray_sum_fixed": {
+  "title": "Subarray Sum - Fixed",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "find_all_anagrams": {
+  "title": "Find All Anagrams in a String",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "find-all-anagrams-in-a-string",
+   "id": "438",
+   "title": "Find All Anagrams in a String",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "subarray_sum_longest": {
+  "title": "Sliding Window - Longest",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "longest_substring_without_repeating_characters": {
+  "title": "Longest Substring without Repeating Characters",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "longest-substring-without-repeating-characters",
+   "id": "3",
+   "title": "Longest Substring Without Repeating Characters",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "subarray_sum_shortest": {
+  "title": "Sliding Window - Shortest",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "least_consecutive_cards_to_match": {
+  "title": "Least Consecutive Cards to Match",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "prefix_sum_intro": {
+  "title": "Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "subarray_sum": {
+  "title": "Subarray Sum Equals Target",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "range_sum_query_immutable": {
+  "title": "Range Sum Query - Immutable",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "range-sum-query-immutable",
+   "id": "303",
+   "title": "Range Sum Query - Immutable",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "product_of_array_except_self": {
+  "title": "Product of Array Except Self",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "product-of-array-except-self",
+   "id": "238",
+   "title": "Product of Array Except Self",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "fast_slow_family_map": {
+  "title": "Fast and Slow Family Map",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "linked_list_cycle": {
+  "title": "Linked List Cycle",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "linked-list-cycle",
+   "id": "141",
+   "title": "Linked List Cycle",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "two_pointers_decision_rule": {
+  "title": "Two Pointers Decision Rule",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "minimum_window_substring": {
+  "title": "Minimum Window Substring",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "minimum-window-substring",
+   "id": "76",
+   "title": "Minimum Window Substring",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "get_maximum_score": {
+  "title": "Teleporter Arrays",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "two_pointers_synthesis": {
+  "title": "Two Pointers Synthesis",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "three_sum": {
+  "title": "3Sum and kSum",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "longest_repeating_character_replacement": {
+  "title": "Longest Repeating Character Replacement",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "longest-repeating-character-replacement",
+   "id": "424",
+   "title": "Longest Repeating Character Replacement",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "subarrays_with_k_distinct": {
+  "title": "Subarrays with K Different Integers (Exactly K = AtMost K − AtMost K−1)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "subarrays-with-k-different-integers",
+   "id": "992",
+   "title": "Subarrays with K Different Integers",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "max_consecutive_ones_iii": {
+  "title": "Max Consecutive Ones III",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "max-consecutive-ones-iii",
+   "id": "1004",
+   "title": "Max Consecutive Ones III",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "sliding_window_median": {
+  "title": "Sliding Window Median",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "sliding-window-median",
+   "id": "480",
+   "title": "Sliding Window Median",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "two-pointers-speedrun": {
+  "title": "Two Pointers Speedrun",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "two-pointers-monster-breakdown": {
+  "title": "Monster Breakdown | Two Pointers",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "recursion_intro": {
+  "title": "Recursion Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "tree_intro": {
+  "title": "Trees",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "dfs_intro": {
+  "title": "DFS Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "dfs_on_trees_intro": {
+  "title": "Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "tree_max_depth": {
+  "title": "Max Depth of A Tree",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "visible_tree_node": {
+  "title": "Visible Tree Node",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "balanced_binary_tree": {
+  "title": "Balanced Binary Tree",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "balanced-binary-tree",
+   "id": "110",
+   "title": "Balanced Binary Tree",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "subtree_of_another_tree": {
+  "title": "Subtree of Another Tree",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "subtree-of-another-tree",
+   "id": "572",
+   "title": "Subtree of Another Tree",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "invert_binary_tree": {
+  "title": "Invert Binary Tree",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "invert-binary-tree",
+   "id": "226",
+   "title": "Invert Binary Tree",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "bst_intro": {
+  "title": "Binary Search Tree Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "valid_bst": {
+  "title": "Valid Binary Search Tree",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "insert_into_bst": {
+  "title": "Insert Into BST",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "lowest_common_ancestor_on_bst": {
+  "title": "Lowest Common Ancestor of a Binary Search Tree",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+   "id": "235",
+   "title": "Lowest Common Ancestor of a Binary Search Tree",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "construct-binary-tree-from-preorder-and-inorder-traversal": {
+  "title": "Reconstruct Binary Tree from Preorder and Inorder Traversal",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "serializing_tree": {
+  "title": "Serializing and Deserializing Binary Tree",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "lowest_common_ancestor": {
+  "title": "Lowest Common Ancestor",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "diameter_of_binary_tree": {
+  "title": "Diameter of Binary Tree (Return One, Track Another)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "diameter-of-binary-tree",
+   "id": "543",
+   "title": "Diameter of Binary Tree",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "binary_tree_max_path_sum": {
+  "title": "Binary Tree Maximum Path Sum",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "binary-tree-maximum-path-sum",
+   "id": "124",
+   "title": "Binary Tree Maximum Path Sum",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "path_sum_iii": {
+  "title": "Path Sum III (Prefix Sum on a Tree)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "path-sum-iii",
+   "id": "437",
+   "title": "Path Sum III",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "kth_smallest_in_bst": {
+  "title": "Kth Smallest Element in a BST",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "kth-smallest-element-in-a-bst",
+   "id": "230",
+   "title": "Kth Smallest Element in a BST",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "vertical_order_traversal": {
+  "title": "Vertical Order Traversal",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "all_nodes_distance_k": {
+  "title": "All Nodes Distance K (Tree to Graph)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "count_complete_tree_nodes": {
+  "title": "Count Complete Tree Nodes",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "count-complete-tree-nodes",
+   "id": "222",
+   "title": "Count Complete Tree Nodes",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "flatten_binary_tree": {
+  "title": "Flatten Binary Tree to Linked List",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "flatten-binary-tree-to-linked-list",
+   "id": "114",
+   "title": "Flatten Binary Tree to Linked List",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "binary_lifting": {
+  "title": "Binary Lifting (Kth Ancestor, LCA in O(log n))",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "nary_tree": {
+  "title": "N-ary Trees and Parent Arrays",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "rerooting_dp": {
+  "title": "Rerooting: Sum of Distances in Tree",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "tree_diameter_general": {
+  "title": "Tree Diameter (Two BFS)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "tree-diameter",
+   "id": "1245",
+   "title": "Tree Diameter",
+   "difficulty": "Medium",
+   "paid": true
+  }
+ },
+ "dfs_with_states": {
+  "title": "DFS with States",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "backtracking": {
+  "title": "Backtracking 1",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "letter_combinations_of_phone_number": {
+  "title": "Generate All Phone Number Combinations",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "backtracking_pruning": {
+  "title": "Backtracking 1 - Pruning",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "palindrome_partitioning": {
+  "title": "Partition a String Into Palindromes",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "backtracking-additional-states": {
+  "title": "Backtracking 1 - Additional States",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "generate_parentheses": {
+  "title": "Generate All Valid Parentheses",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "permutations": {
+  "title": "General All Permutations",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "backtracking-aggregation": {
+  "title": "Backtracking 2 - Aggregation",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "memoization_intro": {
+  "title": "Memoization",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "word_break": {
+  "title": "Word Break",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "word-break",
+   "id": "139",
+   "title": "Word Break",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "decode_ways": {
+  "title": "Num Ways to Decode a Message",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "coin-change-backtracking": {
+  "title": "Min Coins to Make Change",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "deduplication": {
+  "title": "Deduplication",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "combination_sum": {
+  "title": "Combination Sum",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "combination-sum",
+   "id": "39",
+   "title": "Combination Sum",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "subsets_backtracking": {
+  "title": "Subsets",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "subsets",
+   "id": "78",
+   "title": "Subsets",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "n_queens": {
+  "title": "N-Queens",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "n-queens",
+   "id": "51",
+   "title": "N-Queens",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "sudoku_solver": {
+  "title": "Sudoku Solver",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "sudoku-solver",
+   "id": "37",
+   "title": "Sudoku Solver",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "word_search": {
+  "title": "Word Search (Grid Backtracking)",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "word-search",
+   "id": "79",
+   "title": "Word Search",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "combinations": {
+  "title": "Combinations (n choose k)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "combinations",
+   "id": "77",
+   "title": "Combinations",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "restore_ip_addresses": {
+  "title": "Restore IP Addresses",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "restore-ip-addresses",
+   "id": "93",
+   "title": "Restore IP Addresses",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "expression_add_operators": {
+  "title": "Expression Add Operators",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "expression-add-operators",
+   "id": "282",
+   "title": "Expression Add Operators",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "matchsticks_to_square": {
+  "title": "Matchsticks to Square / Partition to K Equal Subsets",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "backtracking-speedrun": {
+  "title": "Backtracking Speedrun",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "bfs_intro": {
+  "title": "BFS Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "binary_tree_level_order_traversal": {
+  "title": "Binary Tree Level Order Traversal",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "binary-tree-level-order-traversal",
+   "id": "102",
+   "title": "Binary Tree Level Order Traversal",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "binary_tree_zig_zag_traversal": {
+  "title": "Binary Tree ZigZag Level Order Traversal",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "binary-tree-zigzag-level-order-traversal",
+   "id": "103",
+   "title": "Binary Tree Zigzag Level Order Traversal",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "binary_tree_right_side_view": {
+  "title": "Binary Tree Right Side View",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "binary-tree-right-side-view",
+   "id": "199",
+   "title": "Binary Tree Right Side View",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "binary_tree_min_depth": {
+  "title": "Binary Tree Min Depth",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "multi_source_bfs": {
+  "title": "Multi-Source BFS (Rotting Oranges)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "zero_one_bfs": {
+  "title": "0-1 BFS with a Deque",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "bidirectional_bfs": {
+  "title": "Bidirectional BFS",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "bfs_with_state": {
+  "title": "BFS with Extra State (Keys, Obstacles Eliminated)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "shortest_path_obstacles_elimination": {
+  "title": "Shortest Path in a Grid with Obstacles Elimination",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+   "id": "1293",
+   "title": "Shortest Path in a Grid with Obstacles Elimination",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "graph_intro": {
+  "title": "Graph Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "graph_bfs": {
+  "title": "BFS on Graphs",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "graph_dfs": {
+  "title": "DFS on Graph",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "graph_bfs_vs_dfs": {
+  "title": "BFS vs DFS",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "shortest_path_unweight": {
+  "title": "Shortest Path",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "clone_graph": {
+  "title": "Clone Graph",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "clone-graph",
+   "id": "133",
+   "title": "Clone Graph",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "matrix_as_graph": {
+  "title": "Matrix as Graph",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "flood_fill": {
+  "title": "Flood Fill",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "flood-fill",
+   "id": "733",
+   "title": "Flood Fill",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "number_of_islands": {
+  "title": "Number of Islands",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "number-of-islands",
+   "id": "200",
+   "title": "Number of Islands",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "knight_shortest_path": {
+  "title": "Knight Minimum Moves",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "walls_and_gates": {
+  "title": "Walls and Gates / Zombie in Matrix",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "pacific_atlantic_water_flow": {
+  "title": "Pacific Atlantic Water Flow",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "pacific-atlantic-water-flow",
+   "id": "417",
+   "title": "Pacific Atlantic Water Flow",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "word_ladder": {
+  "title": "Word Ladder",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "word-ladder",
+   "id": "127",
+   "title": "Word Ladder",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "open_the_lock": {
+  "title": "Open the Lock",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "open-the-lock",
+   "id": "752",
+   "title": "Open the Lock",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "sliding_puzzle": {
+  "title": "Sliding Puzzle",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "sliding-puzzle",
+   "id": "773",
+   "title": "Sliding Puzzle",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "topo_intro": {
+  "title": "Topological Sort Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "task_scheduling": {
+  "title": "Task Scheduling",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "sequence_reconstruction": {
+  "title": "Reconstructing Sequence",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "task_scheduling_2": {
+  "title": "Task Scheduling 2",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "alien_dictionary": {
+  "title": "Alien Dictionary",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "alien-dictionary",
+   "id": "269",
+   "title": "Alien Dictionary",
+   "difficulty": "Hard",
+   "paid": true
+  }
+ },
+ "course_schedule": {
+  "title": "Course Schedule",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "course-schedule",
+   "id": "207",
+   "title": "Course Schedule",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "dijkstra_intro": {
+  "title": "Dijkstra&#x27;s Algorithm | Shortest Path in a Weighted Graph",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "network_delay_time": {
+  "title": "Network Delay Time",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "network-delay-time",
+   "id": "743",
+   "title": "Network Delay Time",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "path_with_minimum_effort": {
+  "title": "Path With Minimum Effort",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "path-with-minimum-effort",
+   "id": "1631",
+   "title": "Path With Minimum Effort",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "swim_in_rising_water": {
+  "title": "Swim in Rising Water",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "swim-in-rising-water",
+   "id": "778",
+   "title": "Swim in Rising Water",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "bellman_ford": {
+  "title": "Bellman-Ford and Cheapest Flights Within K Stops",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "floyd_warshall": {
+  "title": "Floyd-Warshall (All-Pairs Shortest Path)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "a_star_search": {
+  "title": "A* Search",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "mst_intro": {
+  "title": "Introduction to Minimum Spanning Tree",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "mst_forest": {
+  "title": "Minimum Spanning Tree | Forests",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "kruskal_prim": {
+  "title": "Kruskal vs Prim",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "min_cost_connect_points": {
+  "title": "Min Cost to Connect All Points",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "min-cost-to-connect-all-points",
+   "id": "1584",
+   "title": "Min Cost to Connect All Points",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "cycle_detection": {
+  "title": "Cycle Detection (Directed: Colours, Undirected: DSU)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "bipartite_graph": {
+  "title": "Bipartite Check (Is Graph Bipartite, Possible Bipartition)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "tarjan_bridges": {
+  "title": "Bridges and Articulation Points (Tarjan)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "strongly_connected_components": {
+  "title": "Strongly Connected Components (Kosaraju / Tarjan)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "eulerian_path": {
+  "title": "Eulerian Path (Reconstruct Itinerary, Hierholzer)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "evaluate_division": {
+  "title": "Evaluate Division (Weighted Graph Queries)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "evaluate-division",
+   "id": "399",
+   "title": "Evaluate Division",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "graph_valid_tree": {
+  "title": "Graph Valid Tree",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "graph-valid-tree",
+   "id": "261",
+   "title": "Graph Valid Tree",
+   "difficulty": "Medium",
+   "paid": true
+  }
+ },
+ "critical_connections": {
+  "title": "Critical Connections in a Network",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "critical-connections-in-a-network",
+   "id": "1192",
+   "title": "Critical Connections in a Network",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "graph-speedrun": {
+  "title": "Graph Speedrun - Part 1",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "graph-speedrun2": {
+  "title": "Graph Speedrun - Part 2",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "heap_intro": {
+  "title": "Heap Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "k_closest_points": {
+  "title": "K Closest points",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "merge_k_sorted_lists": {
+  "title": "Merge K Sorted Lists",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "merge-k-sorted-lists",
+   "id": "23",
+   "title": "Merge k Sorted Lists",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "kth_largest_element_in_an_array": {
+  "title": "Kth Largest Element in an Array",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "kth-largest-element-in-an-array",
+   "id": "215",
+   "title": "Kth Largest Element in an Array",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "kth_smallest_element_in_a_sorted_matrix": {
+  "title": "Kth Smallest Element in a Sorted Matrix",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "kth-smallest-element-in-a-sorted-matrix",
+   "id": "378",
+   "title": "Kth Smallest Element in a Sorted Matrix",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "reorganize_string": {
+  "title": "Reorganize String",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "reorganize-string",
+   "id": "767",
+   "title": "Reorganize String",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "ugly_number_ii": {
+  "title": "Ugly Number",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "ugly-number",
+   "id": "263",
+   "title": "Ugly Number",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "median_of_data_stream": {
+  "title": "Median of Data Stream",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "two_heaps_pattern": {
+  "title": "Two Heaps Pattern",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "k_way_merge": {
+  "title": "K-way Merge Pattern",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "find_k_pairs_smallest_sums": {
+  "title": "Find K Pairs with Smallest Sums",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "find-k-pairs-with-smallest-sums",
+   "id": "373",
+   "title": "Find K Pairs with Smallest Sums",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "smallest_range_k_lists": {
+  "title": "Smallest Range Covering Elements from K Lists",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "smallest-range-covering-elements-from-k-lists",
+   "id": "632",
+   "title": "Smallest Range Covering Elements from K Lists",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "single_threaded_cpu": {
+  "title": "Single-Threaded CPU (Event Simulation with Heaps)",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "single-threaded-cpu",
+   "id": "1834",
+   "title": "Single-Threaded CPU",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "lazy_deletion_heap": {
+  "title": "Lazy Deletion in Heaps",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "top_k_frequent_words": {
+  "title": "Top K Frequent Words",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "top-k-frequent-words",
+   "id": "692",
+   "title": "Top K Frequent Words",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "dynamic_programming_intro": {
+  "title": "Dynamic Programming Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "climbing_stairs": {
+  "title": "Climbing Stairs",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "climbing-stairs",
+   "id": "70",
+   "title": "Climbing Stairs",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "nth_tribonacci_number": {
+  "title": "N-th Tribonacci Number",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "n-th-tribonacci-number",
+   "id": "1137",
+   "title": "N-th Tribonacci Number",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "dp_constant_transition_intro": {
+  "title": "Constant Transition DP Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "house_robber": {
+  "title": "House Robber",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "house-robber",
+   "id": "198",
+   "title": "House Robber",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "min_cost_climbing_stairs": {
+  "title": "Min Cost Climbing Stairs",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "min-cost-climbing-stairs",
+   "id": "746",
+   "title": "Min Cost Climbing Stairs",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "minimum_cost_for_tickets": {
+  "title": "Minimum Cost For Tickets",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "minimum-cost-for-tickets",
+   "id": "983",
+   "title": "Minimum Cost For Tickets",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "dp_grid_intro": {
+  "title": "Grid DP Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "robot_unique_path": {
+  "title": "Unique Paths",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "unique-paths",
+   "id": "62",
+   "title": "Unique Paths",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "unique_paths_ii": {
+  "title": "Unique Paths with Obstacles",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "minimal_path_sum": {
+  "title": "Minimum Path Sum",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "minimum-path-sum",
+   "id": "64",
+   "title": "Minimum Path Sum",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "maximal_square": {
+  "title": "Maximal Square",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "maximal-square",
+   "id": "221",
+   "title": "Maximal Square",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "triangle": {
+  "title": "Triangle",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "triangle",
+   "id": "120",
+   "title": "Triangle",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "dungeon_game": {
+  "title": "Dungeon Game",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "dungeon-game",
+   "id": "174",
+   "title": "Dungeon Game",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "dp_two_sequence_intro": {
+  "title": "Dual-Sequence DP Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "longest_common_subsequence": {
+  "title": "Longest Common Subsequence",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "longest-common-subsequence",
+   "id": "1143",
+   "title": "Longest Common Subsequence",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "edit_distance": {
+  "title": "Edit Distance",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "edit-distance",
+   "id": "72",
+   "title": "Edit Distance",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "delete_string": {
+  "title": "Delete String",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "distinct_subsequences": {
+  "title": "Distinct Subsequences",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "distinct-subsequences",
+   "id": "115",
+   "title": "Distinct Subsequences",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "shortest_common_supersequence": {
+  "title": "Shortest Common Supersequence",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "shortest-common-supersequence",
+   "id": "1092",
+   "title": "Shortest Common Supersequence ",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "dp_non_constant_transition_intro": {
+  "title": "Non-constant Transition DP Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "longest_increasing_subsequence": {
+  "title": "Longest Increasing Subsequence",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "longest-increasing-subsequence",
+   "id": "300",
+   "title": "Longest Increasing Subsequence",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "partition_array_for_maximum_sum": {
+  "title": "Partition Array for Maximum Sum",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "partition-array-for-maximum-sum",
+   "id": "1043",
+   "title": "Partition Array for Maximum Sum",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "largest_divisible_subset": {
+  "title": "Largest Divisible Subset",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "largest-divisible-subset",
+   "id": "368",
+   "title": "Largest Divisible Subset",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "divisor_game": {
+  "title": "Divisor Game",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "divisor-game",
+   "id": "1025",
+   "title": "Divisor Game",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "dp_knapsack_intro": {
+  "title": "Knapsack DP Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "knapsack_weight_only": {
+  "title": "Weight-Only knapsack",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "partition_equal_subset_sum": {
+  "title": "Partition Equal Subset Sum",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "partition-equal-subset-sum",
+   "id": "416",
+   "title": "Partition Equal Subset Sum",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "target_sum": {
+  "title": "Target Sum",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "target-sum",
+   "id": "494",
+   "title": "Target Sum",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "dp_knapsack_unbounded": {
+  "title": "Unbounded Knapsack Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "coin_change_ii": {
+  "title": "Coin Change II",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "coin-change-ii",
+   "id": "518",
+   "title": "Coin Change II",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "coin_change": {
+  "title": "Coin Change, Optimization",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "perfect_squares": {
+  "title": "Perfect Squares",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "perfect-squares",
+   "id": "279",
+   "title": "Perfect Squares",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "dp_knapsack_01": {
+  "title": "0/1 Knapsack Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "knapsack_intro": {
+  "title": "0/1 Knapsack Practice Problem",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "dp_knapsack_bounded": {
+  "title": "Bounded Knapsack Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "bounded_knapsack": {
+  "title": "Bounded Knapsack",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "dp_interval_intro": {
+  "title": "Interval DP Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "palindromic_substrings": {
+  "title": "Palindromic Substrings",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "palindromic-substrings",
+   "id": "647",
+   "title": "Palindromic Substrings",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "coin_game": {
+  "title": "Coin Game",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "longest_palindromic_subsequence": {
+  "title": "Longest Palindromic Subsequence",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "longest-palindromic-subsequence",
+   "id": "516",
+   "title": "Longest Palindromic Subsequence",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "burst_balloons": {
+  "title": "Burst Balloons",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "burst-balloons",
+   "id": "312",
+   "title": "Burst Balloons",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "minimum_cost_cut_stick": {
+  "title": "Minimum Cost to Cut a Stick",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "minimum-cost-to-cut-a-stick",
+   "id": "1547",
+   "title": "Minimum Cost to Cut a Stick",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "palindrome_partitioning_ii": {
+  "title": "Palindrome Partitioning II",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "palindrome-partitioning-ii",
+   "id": "132",
+   "title": "Palindrome Partitioning II",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "dp_state_machine_intro": {
+  "title": "State Machine DP Introduction",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "stock_cooldown": {
+  "title": "Best Time to Buy and Sell Stock with Cooldown",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+   "id": "309",
+   "title": "Best Time to Buy and Sell Stock with Cooldown",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "stock_k_transactions": {
+  "title": "Best Time to Buy and Sell Stock IV",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "best-time-to-buy-and-sell-stock-iv",
+   "id": "188",
+   "title": "Best Time to Buy and Sell Stock IV",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "paint_house": {
+  "title": "Paint House I and II",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "maximum_product_subarray": {
+  "title": "Maximum Product Subarray",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "maximum-product-subarray",
+   "id": "152",
+   "title": "Maximum Product Subarray",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "regular_expression_matching": {
+  "title": "Regular Expression Matching",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "regular-expression-matching",
+   "id": "10",
+   "title": "Regular Expression Matching",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "wildcard_matching": {
+  "title": "Wildcard Matching",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "wildcard-matching",
+   "id": "44",
+   "title": "Wildcard Matching",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "interleaving_string": {
+  "title": "Interleaving String",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "interleaving-string",
+   "id": "97",
+   "title": "Interleaving String",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "word_break_ii": {
+  "title": "Word Break II",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "word-break-ii",
+   "id": "140",
+   "title": "Word Break II",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "digit_dp": {
+  "title": "Digit DP Introduction",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "count_numbers_unique_digits": {
+  "title": "Count Numbers with Unique Digits",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "count-numbers-with-unique-digits",
+   "id": "357",
+   "title": "Count Numbers with Unique Digits",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "knight_probability": {
+  "title": "Knight Probability in Chessboard",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "knight-probability-in-chessboard",
+   "id": "688",
+   "title": "Knight Probability in Chessboard",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "new_21_game": {
+  "title": "New 21 Game",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "new-21-game",
+   "id": "837",
+   "title": "New 21 Game",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "dp_space_optimisation": {
+  "title": "Rolling Arrays and Space Optimisation",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "lis_patience": {
+  "title": "LIS in O(n log n) (Patience Sorting)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "russian_doll_envelopes": {
+  "title": "Russian Doll Envelopes",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "russian-doll-envelopes",
+   "id": "354",
+   "title": "Russian Doll Envelopes",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "dp_on_sorted_intervals": {
+  "title": "Weighted Interval Scheduling (DP + Binary Search)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "dp_topological_sort_intro": {
+  "title": "Topological Sort DP Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "longest_increasing_path_in_a_matrix": {
+  "title": "Longest Increasing Path in a Matrix",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "longest-increasing-path-in-a-matrix",
+   "id": "329",
+   "title": "Longest Increasing Path in a Matrix",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "longest_string_chain": {
+  "title": "Longest String Chain",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "longest-string-chain",
+   "id": "1048",
+   "title": "Longest String Chain",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "tree_dp_intro": {
+  "title": "Tree DP Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "house_robber_iii": {
+  "title": "House Robber III",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "house-robber-iii",
+   "id": "337",
+   "title": "House Robber III",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "bitmask_intro": {
+  "title": "Bitmask Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "bitmask_dp": {
+  "title": "Bitmask DP",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "min_cost_to_visit_every_node": {
+  "title": "Minimum Cost to Visit Every Node",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "dp-list": {
+  "title": "DP Practice List",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "dsu_intro": {
+  "title": "DSU/Union Find Fundamentals",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "dsu_optimizations": {
+  "title": "DSU Optimizations: Path Compression and Union by Rank",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "dsu_problem_intro": {
+  "title": "DSU Introductory Problem",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "dsu_set_size": {
+  "title": "Size of Connected Components",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "dsu_account_merge": {
+  "title": "Merge User Accounts",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "number_of_connected_components": {
+  "title": "Number of Connected Components",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "umbristan": {
+  "title": "Umbristan |  Reverse Union Find",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "trie_intro": {
+  "title": "Trie Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "autocomplete": {
+  "title": "Autocomplete",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "prefix_count": {
+  "title": "Prefix Count",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "design_add_and_search_words_data_structure": {
+  "title": "Add and Search Words Data Structure",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "word_search_ii": {
+  "title": "Word Search II",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "word-search-ii",
+   "id": "212",
+   "title": "Word Search II",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "lru_cache": {
+  "title": "LRU Cache",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "lru-cache",
+   "id": "146",
+   "title": "LRU Cache",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "all_o_one": {
+  "title": "All O`one Data Structure",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "all-oone-data-structure",
+   "id": "432",
+   "title": "All O`one Data Structure",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "max_stack": {
+  "title": "Max Stack",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "max-stack",
+   "id": "716",
+   "title": "Max Stack",
+   "difficulty": "Hard",
+   "paid": true
+  }
+ },
+ "design_circular_queue": {
+  "title": "Design Circular Queue",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "design-circular-queue",
+   "id": "622",
+   "title": "Design Circular Queue",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "segment_tree_intro": {
+  "title": "Segment Tree Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "range_max": {
+  "title": "Range max",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "range_sum_query_mutable": {
+  "title": "Range Sum Query - Mutable",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "range-sum-query-mutable",
+   "id": "307",
+   "title": "Range Sum Query - Mutable",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "lazy_propagation": {
+  "title": "Segment Tree with Lazy Propagation",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "my_calendar": {
+  "title": "My Calendar I, II, III",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "fenwick_tree_intro": {
+  "title": "Fenwick Tree (Binary Indexed Tree) Intro",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "fenwick_count_inversions": {
+  "title": "Counting with a Fenwick Tree (Smaller After Self)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "fenwick_2d": {
+  "title": "2D Fenwick Tree",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "ordered_set": {
+  "title": "Ordered Set / TreeMap (SortedList, bisect)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "contains_duplicate_iii": {
+  "title": "Contains Duplicate III (Buckets or Ordered Set)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "contains-duplicate-iii",
+   "id": "220",
+   "title": "Contains Duplicate III",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "sparse_table": {
+  "title": "Sparse Table (Range Minimum Query)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "sqrt_decomposition": {
+  "title": "Square Root Decomposition",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "interval_pattern_intro": {
+  "title": "Intervals",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "merge_intervals": {
+  "title": "Merge Intervals",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "merge-intervals",
+   "id": "56",
+   "title": "Merge Intervals",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "insert_interval": {
+  "title": "Insert Interval",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "insert-interval",
+   "id": "57",
+   "title": "Insert Interval",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "meeting_rooms": {
+  "title": "Meeting Rooms",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "meeting-rooms",
+   "id": "252",
+   "title": "Meeting Rooms",
+   "difficulty": "Easy",
+   "paid": true
+  }
+ },
+ "meeting_rooms_ii": {
+  "title": "Meeting Rooms II",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "meeting-rooms-ii",
+   "id": "253",
+   "title": "Meeting Rooms II",
+   "difficulty": "Medium",
+   "paid": true
+  }
+ },
+ "non_overlapping_intervals": {
+  "title": "Non-overlapping Intervals",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "non-overlapping-intervals",
+   "id": "435",
+   "title": "Non-overlapping Intervals",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "minimum_number_of_arrows_to_burst_balloons": {
+  "title": "Minimum Number of Arrows to Burst Balloons",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "minimum-number-of-arrows-to-burst-balloons",
+   "id": "452",
+   "title": "Minimum Number of Arrows to Burst Balloons",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "partition_labels": {
+  "title": "Partition Labels",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "partition-labels",
+   "id": "763",
+   "title": "Partition Labels",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "divide_and_conquer_intro": {
+  "title": "Divide and Conquer Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "skyline_problem": {
+  "title": "The Skyline Problem",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "the-skyline-problem",
+   "id": "218",
+   "title": "The Skyline Problem",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "count_of_smaller_numbers_after_self": {
+  "title": "Count of Smaller Numbers After Self",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "count-of-smaller-numbers-after-self",
+   "id": "315",
+   "title": "Count of Smaller Numbers After Self",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "quickselect": {
+  "title": "Quickselect (Kth Element in Average O(n))",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "merge_sort_inversions": {
+  "title": "Counting Inversions with Merge Sort",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "reverse_pairs": {
+  "title": "Reverse Pairs",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "reverse-pairs",
+   "id": "493",
+   "title": "Reverse Pairs",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "line_sweep_intro": {
+  "title": "Line-Sweep Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "rectangle_area_ii": {
+  "title": "Union Area of Rectangles",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "car_pooling": {
+  "title": "Car Pooling (Events Sweep)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "car-pooling",
+   "id": "1094",
+   "title": "Car Pooling",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "employee_free_time": {
+  "title": "Employee Free Time",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "employee-free-time",
+   "id": "759",
+   "title": "Employee Free Time",
+   "difficulty": "Hard",
+   "paid": true
+  }
+ },
+ "iterative_traversals": {
+  "title": "Iterative Preorder, Inorder and Postorder",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "bst_iterator": {
+  "title": "BST Iterator (Controlled Inorder)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "morris_traversal": {
+  "title": "Morris Traversal (O(1) Space)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "closest_bst_values_ii": {
+  "title": "Closest BST Values II",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "sparse_matrix_multiplication": {
+  "title": "Sparse Matrix Multiplication",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "sparse-matrix-multiplication",
+   "id": "311",
+   "title": "Sparse Matrix Multiplication",
+   "difficulty": "Medium",
+   "paid": true
+  }
+ },
+ "search_2d_matrix_ii": {
+  "title": "Search a 2D Matrix II (Staircase Search)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "search-a-2d-matrix-ii",
+   "id": "240",
+   "title": "Search a 2D Matrix II",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "design_hit_counter": {
+  "title": "Design Hit Counter",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "design-hit-counter",
+   "id": "362",
+   "title": "Design Hit Counter",
+   "difficulty": "Medium",
+   "paid": true
+  }
+ },
+ "time_based_kv_store": {
+  "title": "Time Based Key-Value Store",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "time-based-key-value-store",
+   "id": "981",
+   "title": "Time Based Key-Value Store",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "lfu_cache": {
+  "title": "LFU Cache",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "lfu-cache",
+   "id": "460",
+   "title": "LFU Cache",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "design_twitter": {
+  "title": "Design Twitter (Merge K Feeds)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "design-twitter",
+   "id": "355",
+   "title": "Design Twitter",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "snapshot_array": {
+  "title": "Snapshot Array",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "snapshot-array",
+   "id": "1146",
+   "title": "Snapshot Array",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "iterator_design": {
+  "title": "Iterator Design (Flatten Nested List, Peeking Iterator)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "greedy_intro": {
+  "title": "Greedy Introduction",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "exchange_argument": {
+  "title": "Proving Greedy: Exchange Argument",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "gas_station": {
+  "title": "Gas Station",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "gas-station",
+   "id": "134",
+   "title": "Gas Station",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "jump_game": {
+  "title": "Jump Game I and II",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "task_scheduler": {
+  "title": "Task Scheduler",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "task-scheduler",
+   "id": "621",
+   "title": "Task Scheduler",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "candy": {
+  "title": "Candy (Two-Pass Greedy)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "candy",
+   "id": "135",
+   "title": "Candy",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "boats_to_save_people": {
+  "title": "Boats to Save People",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "boats-to-save-people",
+   "id": "881",
+   "title": "Boats to Save People",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "hand_of_straights": {
+  "title": "Hand of Straights",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "hand-of-straights",
+   "id": "846",
+   "title": "Hand of Straights",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "ipo": {
+  "title": "IPO (Greedy + Heap)",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "ipo",
+   "id": "502",
+   "title": "IPO",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "course_schedule_iii": {
+  "title": "Course Schedule III (Regret Heap)",
+  "algomonster": true,
+  "problem": true,
+  "lc": {
+   "slug": "course-schedule-iii",
+   "id": "630",
+   "title": "Course Schedule III",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "bit_manipulation_intro": {
+  "title": "Bit Manipulation Basics",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "single_number": {
+  "title": "Single Number (XOR Tricks)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "single-number",
+   "id": "136",
+   "title": "Single Number",
+   "difficulty": "Easy",
+   "paid": false
+  }
+ },
+ "counting_bits": {
+  "title": "Counting Bits and Brian Kernighan",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "subsets_bitmask": {
+  "title": "Enumerating Subsets with Bitmasks",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "maximum_xor": {
+  "title": "Maximum XOR of Two Numbers (Bitwise Trie)",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "prime_sieve_intro": {
+  "title": "Prime Sieve Intro",
+  "algomonster": true,
+  "problem": false,
+  "lc": null
+ },
+ "nth_prime": {
+  "title": "N-th prime",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "gcd_lcm": {
+  "title": "GCD, LCM and Euclid",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "modular_arithmetic": {
+  "title": "Modular Arithmetic and Fast Power",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "combinatorics": {
+  "title": "Combinatorics: nCr, Pascal and Modular Inverse",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "pow_x_n": {
+  "title": "Pow(x, n) (Binary Exponentiation)",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "powx-n",
+   "id": "50",
+   "title": "Pow(x, n)",
+   "difficulty": "Medium",
+   "paid": false
+  }
+ },
+ "geometry_basics": {
+  "title": "Geometry Basics: Cross Product, Distance, Collinearity",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ },
+ "max_points_on_line": {
+  "title": "Max Points on a Line",
+  "algomonster": false,
+  "problem": true,
+  "lc": {
+   "slug": "max-points-on-a-line",
+   "id": "149",
+   "title": "Max Points on a Line",
+   "difficulty": "Hard",
+   "paid": false
+  }
+ },
+ "rectangle_overlap": {
+  "title": "Rectangle Overlap and Area",
+  "algomonster": true,
+  "problem": true,
+  "lc": null
+ },
+ "integer_overflow": {
+  "title": "Integer Overflow, Reverse Integer and atoi",
+  "algomonster": false,
+  "problem": false,
+  "lc": null
+ }
+}
